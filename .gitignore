@@ -1,0 +1,19 @@
+﻿# Python runtime artifacts
+**/__pycache__/
+*.py[cod]
+
+# JavaScript dependencies and generated builds
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.vite/
+
+# Generated API job and verification output
+/data/api/jobs/
+/data/api/test_verify_run/
+
+# Local logs and environment files
+*.log
+.env
+.env.*
+!.env.example
