@@ -1,0 +1,703 @@
+{
+  "schema_version": "1.0",
+  "job_id": "reprocess_sigma3",
+  "created_utc": "2026-11-14T07:43:14.870753+00:00",
+  "software_version": "0.1.0",
+  "input_manifest": "data\\api\\jobs\\71f7b524-e10e-40ec-bb52-67937dfa4801\\manifest.json",
+  "input_observation_count": 6,
+  "usable_local_observation_count": 4,
+  "missing_or_failed_input_count": 2,
+  "input_failures": [
+    {
+      "index": 3,
+      "product_id": "2026W28_1A_0104_4",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D1",
+      "timestamp": "2026-07-06T11:44:11.501Z",
+      "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_4D1_spx_l2b-v27-2026-275.fits",
+      "local_file_path": null,
+      "file_exists": false,
+      "errors": [
+        "Missing local FITS path."
+      ]
+    },
+    {
+      "index": 4,
+      "product_id": "2026W28_1A_0201_1",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D1",
+      "timestamp": "2026-07-06T23:01:46.157Z",
+      "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0201_1D1_spx_l2b-v27-2026-275.fits",
+      "local_file_path": null,
+      "file_exists": false,
+      "errors": [
+        "Missing local FITS path."
+      ]
+    }
+  ],
+  "input_observation_ids": [
+    "2026W28_1A_0104_1",
+    "2026W28_1A_0104_2",
+    "2026W28_1A_0104_3",
+    "2026W28_1A_0671_2"
+  ],
+  "input_source_urls": [
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_1D1_spx_l2b-v27-2026-275.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_2D1_spx_l2b-v27-2026-275.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_3D1_spx_l2b-v27-2026-275.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0671_2D1_spx_l2b-v27-2026-275.fits"
+  ],
+  "fits_inspection": [
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0104_1_0.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        59,
+        58
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W28_1A_0104_1",
+      "observation_time": "2026-07-06T11:37:43.178",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0104_2_1.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        59,
+        59
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W28_1A_0104_2",
+      "observation_time": "2026-07-06T11:39:53.643",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0104_3_2.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        59,
+        58
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W28_1A_0104_3",
+      "observation_time": "2026-07-06T11:42:02.574",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            59,
+            58
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0671_2_5.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        59,
+        59
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W28_1A_0671_2",
+      "observation_time": "2026-07-08T17:24:54.261",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            59,
+            59
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    }
+  ],
+  "groups_found": 1,
+  "selected_group": {
+    "collection": "spherex_qr3",
+    "band": "SPHEREx-D1",
+    "field_center_rounded_deg": [
+      248.1676,
+      66.755
+    ],
+    "bunit": "MJy / sr",
+    "epoch_count": 4
+  },
+  "frames": [
+    {
+      "index": 0,
+      "observation_id": "2026W28_1A_0104_1",
+      "timestamp": "2026-07-06T11:37:43.219Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D1",
+      "wavelength_min_um": 0.7455,
+      "wavelength_max_um": 1.1167,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_1D1_spx_l2b-v27-2026-275.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0104_1_0.fits",
+      "aligned_fits": "processed\\frame_000_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 765,
+        "invalid_variance": 765,
+        "uncovered": 665,
+        "flag_SNOWBALL": 0,
+        "flag_NONLINEAR": 0,
+        "flag_NONFUNC": 13,
+        "flag_MISSING_DATA": 0,
+        "flag_BLOOM": 81,
+        "flag_TRANSIENT": 164,
+        "flag_OUTLIER": 0,
+        "flag_PERSIST": 5,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_GHOST": 0,
+        "flag_HOT": 0,
+        "flag_PHANMISS": 0,
+        "flag_DICHROIC": 0,
+        "flag_OVERFLOW": 13,
+        "flag_COLD": 7,
+        "flag_HALO": 259,
+        "flag_CROSSTALK": 34,
+        "flag_SUR_ERROR": 109,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 2657,
+        "excluded_pixels": 765
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_000.png"
+    },
+    {
+      "index": 1,
+      "observation_id": "2026W28_1A_0104_2",
+      "timestamp": "2026-07-06T11:39:53.683Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D1",
+      "wavelength_min_um": 0.7455,
+      "wavelength_max_um": 1.1167,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_2D1_spx_l2b-v27-2026-275.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0104_2_1.fits",
+      "aligned_fits": "processed\\frame_001_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 929,
+        "invalid_variance": 929,
+        "uncovered": 879,
+        "flag_SNOWBALL": 0,
+        "flag_NONLINEAR": 0,
+        "flag_NONFUNC": 12,
+        "flag_MISSING_DATA": 0,
+        "flag_BLOOM": 133,
+        "flag_TRANSIENT": 230,
+        "flag_OUTLIER": 0,
+        "flag_PERSIST": 3,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_GHOST": 0,
+        "flag_HOT": 0,
+        "flag_PHANMISS": 0,
+        "flag_DICHROIC": 0,
+        "flag_OVERFLOW": 20,
+        "flag_COLD": 2,
+        "flag_HALO": 309,
+        "flag_CROSSTALK": 100,
+        "flag_SUR_ERROR": 181,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 2493,
+        "excluded_pixels": 929
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_001.png"
+    },
+    {
+      "index": 2,
+      "observation_id": "2026W28_1A_0104_3",
+      "timestamp": "2026-07-06T11:42:02.592Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D1",
+      "wavelength_min_um": 0.7455,
+      "wavelength_max_um": 1.1167,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0104_3D1_spx_l2b-v27-2026-275.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0104_3_2.fits",
+      "aligned_fits": "processed\\frame_002_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 838,
+        "invalid_variance": 838,
+        "uncovered": 741,
+        "flag_SNOWBALL": 0,
+        "flag_NONLINEAR": 0,
+        "flag_NONFUNC": 11,
+        "flag_MISSING_DATA": 0,
+        "flag_BLOOM": 102,
+        "flag_TRANSIENT": 179,
+        "flag_OUTLIER": 0,
+        "flag_PERSIST": 3,
+        "flag_STREAK": 317,
+        "flag_GHOST_FPA": 0,
+        "flag_GHOST": 0,
+        "flag_HOT": 0,
+        "flag_PHANMISS": 0,
+        "flag_DICHROIC": 0,
+        "flag_OVERFLOW": 15,
+        "flag_COLD": 1,
+        "flag_HALO": 241,
+        "flag_CROSSTALK": 47,
+        "flag_SUR_ERROR": 85,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 2584,
+        "excluded_pixels": 838
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_002.png"
+    },
+    {
+      "index": 3,
+      "observation_id": "2026W28_1A_0671_2",
+      "timestamp": "2026-07-08T17:24:54.259Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D1",
+      "wavelength_min_um": 0.7455,
+      "wavelength_max_um": 1.1167,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W28_1A/l2b-v27-2026-275/1/level2_2026W28_1A_0671_2D1_spx_l2b-v27-2026-275.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\2026W28_1A_0671_2_5.fits",
+      "aligned_fits": "processed\\frame_003_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 469,
+        "invalid_variance": 469,
+        "uncovered": 372,
+        "flag_SNOWBALL": 0,
+        "flag_NONLINEAR": 0,
+        "flag_NONFUNC": 8,
+        "flag_MISSING_DATA": 0,
+        "flag_BLOOM": 105,
+        "flag_TRANSIENT": 111,
+        "flag_OUTLIER": 0,
+        "flag_PERSIST": 13,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_GHOST": 0,
+        "flag_HOT": 0,
+        "flag_PHANMISS": 0,
+        "flag_DICHROIC": 0,
+        "flag_OVERFLOW": 13,
+        "flag_COLD": 0,
+        "flag_HALO": 52,
+        "flag_CROSSTALK": 45,
+        "flag_SUR_ERROR": 91,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 2953,
+        "excluded_pixels": 469
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_003.png"
+    }
+  ],
+  "comparisons": [
+    {
+      "reference_observation_id": "2026W28_1A_0104_1",
+      "comparison_observation_id": "2026W28_1A_0104_2",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": false,
+        "matches": 0,
+        "median_offset_px": null,
+        "rms_offset_px": null,
+        "reason": "Insufficient background sources (reference=3, comparison=1; need 3)."
+      },
+      "status": "blocked_alignment",
+      "reason": "Difference and candidate extraction withheld because background-source alignment did not pass."
+    },
+    {
+      "reference_observation_id": "2026W28_1A_0104_1",
+      "comparison_observation_id": "2026W28_1A_0104_3",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": false,
+        "matches": 0,
+        "median_offset_px": null,
+        "rms_offset_px": null,
+        "reason": "Insufficient background sources (reference=3, comparison=0; need 3)."
+      },
+      "status": "blocked_alignment",
+      "reason": "Difference and candidate extraction withheld because background-source alignment did not pass."
+    },
+    {
+      "reference_observation_id": "2026W28_1A_0104_1",
+      "comparison_observation_id": "2026W28_1A_0671_2",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": false,
+        "matches": 2,
+        "median_offset_px": null,
+        "rms_offset_px": null,
+        "reason": "Too few one-to-one background-source matches."
+      },
+      "status": "blocked_alignment",
+      "reason": "Difference and candidate extraction withheld because background-source alignment did not pass."
+    }
+  ],
+  "warnings": [
+    "2 manifest inputs were missing or failed validation; available subset processed.",
+    "Frames were inspected/reprojected, but no comparison passed all scientific gates."
+  ],
+  "errors": [],
+  "status": "partial",
+  "reference_grid": {
+    "shape_out": [
+      59,
+      58
+    ],
+    "radesys": "ICRS",
+    "ctype": [
+      "RA---TAN-SIP",
+      "DEC--TAN-SIP"
+    ],
+    "crval": [
+      246.045863628,
+      66.3825980533
+    ],
+    "crpix": [
+      -58.5,
+      558.5
+    ],
+    "pixel_scale_matrix": [
+      [
+        0.00101332291427,
+        -0.00141378681344
+      ],
+      [
+        -0.00137759154249,
+        -0.000958821196027
+      ]
+    ],
+    "reference_observation_id": "2026W28_1A_0104_1"
+  },
+  "reprojection": {
+    "science_interpolation": "bilinear",
+    "flags_interpolation": "nearest-neighbor",
+    "variance_method": "squared bilinear weights; assumes independent input pixels",
+    "covariance_modelled": false
+  },
+  "masking": {
+    "nonfinite_science": true,
+    "invalid_variance": true,
+    "coverage_footprint": true,
+    "flag_definitions_source": "FITS FLAGS HDU header (MSKN/MSKM/MSKD or MP_* bit positions)"
+  },
+  "calibration_and_normalization": {
+    "release_band_unit_compatibility_required": true,
+    "background_offset": "source-masked diagnostic only; not applied",
+    "photometric_scale_normalization": "not applied",
+    "psf_matching": "not performed"
+  },
+  "alignment_tolerances": {
+    "min_background_matches": 3,
+    "median_offset_px_max": 0.5,
+    "rms_offset_px_max": 1.0,
+    "target_exclusion_radius_px": 3.0
+  },
+  "candidate_count": 0
+}
