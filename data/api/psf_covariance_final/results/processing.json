@@ -1,0 +1,1205 @@
+{
+  "schema_version": "1.0",
+  "job_id": "psf_covariance_final",
+  "created_utc": "2026-11-14T10:11:51.587601+00:00",
+  "software_version": "0.1.0",
+  "input_manifest": "data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\manifest.json",
+  "input_observation_count": 4,
+  "usable_local_observation_count": 4,
+  "missing_or_failed_input_count": 0,
+  "input_failures": [],
+  "input_observation_ids": [
+    "2026W34_1A_0363_1",
+    "2026W34_1A_0363_2",
+    "2026W34_1A_0363_3",
+    "2026W34_1A_0456_1"
+  ],
+  "input_source_urls": [
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0363_1D2_spx_l2b-v27-2026-243.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0363_2D2_spx_l2b-v27-2026-243.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0363_3D2_spx_l2b-v27-2026-243.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0456_1D2_spx_l2b-v27-2026-243.fits"
+  ],
+  "fits_inspection": [
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0363_1_0.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        293,
+        245
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W34_1A_0363_1",
+      "observation_time": "2026-08-18T20:48:38.781",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            293,
+            245
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            293,
+            245
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            293,
+            245
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            293,
+            245
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0363_2_1.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        293,
+        246
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W34_1A_0363_2",
+      "observation_time": "2026-08-18T20:50:47.711",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            293,
+            246
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            293,
+            246
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            293,
+            246
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            293,
+            246
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0363_3_2.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        293,
+        248
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W34_1A_0363_3",
+      "observation_time": "2026-08-18T20:52:56.642",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            293,
+            248
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            293,
+            248
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            293,
+            248
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            293,
+            248
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0456_1_3.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        273,
+        249
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W34_1A_0456_1",
+      "observation_time": "2026-08-19T08:12:34.083",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            273,
+            249
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            273,
+            249
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            273,
+            249
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            273,
+            249
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    }
+  ],
+  "groups_found": 1,
+  "selected_group": {
+    "collection": "spherex_qr3",
+    "band": "SPHEREx-D2",
+    "field_center_rounded_deg": [
+      269.4461,
+      4.7707
+    ],
+    "bunit": "MJy / sr",
+    "epoch_count": 4
+  },
+  "frames": [
+    {
+      "index": 0,
+      "observation_id": "2026W34_1A_0363_1",
+      "timestamp": "2026-08-18T20:48:38.822Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0363_1D2_spx_l2b-v27-2026-243.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0363_1_0.fits",
+      "aligned_fits": "processed\\frame_000_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 3812,
+        "invalid_variance": 3812,
+        "uncovered": 3302,
+        "flag_MISSING_DATA": 0,
+        "flag_HALO": 599,
+        "flag_OUTLIER": 177,
+        "flag_HOT": 0,
+        "flag_SUR_ERROR": 238,
+        "flag_NONFUNC": 126,
+        "flag_TRANSIENT": 345,
+        "flag_GHOST": 0,
+        "flag_PHANMISS": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_PERSIST": 256,
+        "flag_BLOOM": 163,
+        "flag_COLD": 14,
+        "flag_CROSSTALK": 2,
+        "flag_OVERFLOW": 41,
+        "flag_NONLINEAR": 0,
+        "flag_DICHROIC": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 67973,
+        "excluded_pixels": 3812
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_000.png",
+      "preview_stretches": {
+        "linear": "previews\\frame_000.png",
+        "log": "previews\\frame_000_log.png",
+        "sqrt": "previews\\frame_000_sqrt.png",
+        "asinh": "previews\\frame_000_asinh.png"
+      },
+      "mask_overlays": {
+        "linear": "previews\\frame_000_mask_linear.png",
+        "log": "previews\\frame_000_mask_log.png",
+        "sqrt": "previews\\frame_000_mask_sqrt.png",
+        "asinh": "previews\\frame_000_mask_asinh.png"
+      }
+    },
+    {
+      "index": 1,
+      "observation_id": "2026W34_1A_0363_2",
+      "timestamp": "2026-08-18T20:50:47.731Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0363_2D2_spx_l2b-v27-2026-243.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0363_2_1.fits",
+      "aligned_fits": "processed\\frame_001_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 3985,
+        "invalid_variance": 3985,
+        "uncovered": 3712,
+        "flag_MISSING_DATA": 0,
+        "flag_HALO": 526,
+        "flag_OUTLIER": 170,
+        "flag_HOT": 0,
+        "flag_SUR_ERROR": 211,
+        "flag_NONFUNC": 126,
+        "flag_TRANSIENT": 335,
+        "flag_GHOST": 0,
+        "flag_PHANMISS": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_PERSIST": 380,
+        "flag_BLOOM": 176,
+        "flag_COLD": 13,
+        "flag_CROSSTALK": 0,
+        "flag_OVERFLOW": 47,
+        "flag_NONLINEAR": 0,
+        "flag_DICHROIC": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 67800,
+        "excluded_pixels": 3985
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_001.png",
+      "preview_stretches": {
+        "linear": "previews\\frame_001.png",
+        "log": "previews\\frame_001_log.png",
+        "sqrt": "previews\\frame_001_sqrt.png",
+        "asinh": "previews\\frame_001_asinh.png"
+      },
+      "mask_overlays": {
+        "linear": "previews\\frame_001_mask_linear.png",
+        "log": "previews\\frame_001_mask_log.png",
+        "sqrt": "previews\\frame_001_mask_sqrt.png",
+        "asinh": "previews\\frame_001_mask_asinh.png"
+      }
+    },
+    {
+      "index": 2,
+      "observation_id": "2026W34_1A_0363_3",
+      "timestamp": "2026-08-18T20:52:56.640Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0363_3D2_spx_l2b-v27-2026-243.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0363_3_2.fits",
+      "aligned_fits": "processed\\frame_002_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 6066,
+        "invalid_variance": 6066,
+        "uncovered": 5628,
+        "flag_MISSING_DATA": 0,
+        "flag_HALO": 1745,
+        "flag_OUTLIER": 171,
+        "flag_HOT": 0,
+        "flag_SUR_ERROR": 312,
+        "flag_NONFUNC": 122,
+        "flag_TRANSIENT": 794,
+        "flag_GHOST": 0,
+        "flag_PHANMISS": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_PERSIST": 405,
+        "flag_BLOOM": 200,
+        "flag_COLD": 18,
+        "flag_CROSSTALK": 0,
+        "flag_OVERFLOW": 52,
+        "flag_NONLINEAR": 0,
+        "flag_DICHROIC": 0,
+        "flag_SNOWBALL": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 65719,
+        "excluded_pixels": 6066
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_002.png",
+      "preview_stretches": {
+        "linear": "previews\\frame_002.png",
+        "log": "previews\\frame_002_log.png",
+        "sqrt": "previews\\frame_002_sqrt.png",
+        "asinh": "previews\\frame_002_asinh.png"
+      },
+      "mask_overlays": {
+        "linear": "previews\\frame_002_mask_linear.png",
+        "log": "previews\\frame_002_mask_log.png",
+        "sqrt": "previews\\frame_002_mask_sqrt.png",
+        "asinh": "previews\\frame_002_mask_asinh.png"
+      }
+    },
+    {
+      "index": 3,
+      "observation_id": "2026W34_1A_0456_1",
+      "timestamp": "2026-08-19T08:12:34.070Z",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_1A/l2b-v27-2026-243/2/level2_2026W34_1A_0456_1D2_spx_l2b-v27-2026-243.fits",
+      "source_file": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\jobs\\d5e97c37-93bd-44b9-83d8-f92f1cb0e086\\raw\\2026W34_1A_0456_1_3.fits",
+      "aligned_fits": "processed\\frame_003_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 8338,
+        "invalid_variance": 8338,
+        "uncovered": 7883,
+        "flag_MISSING_DATA": 0,
+        "flag_HALO": 466,
+        "flag_OUTLIER": 161,
+        "flag_HOT": 0,
+        "flag_SUR_ERROR": 237,
+        "flag_NONFUNC": 140,
+        "flag_TRANSIENT": 321,
+        "flag_GHOST": 0,
+        "flag_PHANMISS": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_PERSIST": 282,
+        "flag_BLOOM": 167,
+        "flag_COLD": 23,
+        "flag_CROSSTALK": 0,
+        "flag_OVERFLOW": 52,
+        "flag_NONLINEAR": 0,
+        "flag_DICHROIC": 0,
+        "flag_SNOWBALL": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_EXT": 0,
+        "valid_pixels": 63447,
+        "excluded_pixels": 8338
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_003.png",
+      "preview_stretches": {
+        "linear": "previews\\frame_003.png",
+        "log": "previews\\frame_003_log.png",
+        "sqrt": "previews\\frame_003_sqrt.png",
+        "asinh": "previews\\frame_003_asinh.png"
+      },
+      "mask_overlays": {
+        "linear": "previews\\frame_003_mask_linear.png",
+        "log": "previews\\frame_003_mask_log.png",
+        "sqrt": "previews\\frame_003_mask_sqrt.png",
+        "asinh": "previews\\frame_003_mask_asinh.png"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "reference_observation_id": "2026W34_1A_0363_1",
+      "comparison_observation_id": "2026W34_1A_0363_2",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 1055,
+        "median_offset_px": 0.12136340053156168,
+        "rms_offset_px": 0.3895330651864968,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "psf_matching": {
+        "status": "complete",
+        "method": "local EPSF/PSF moment matching with normalized Gaussian convolution",
+        "reference_psf_fwhm_px": [
+          1.4967884728840195,
+          1.3972400173532968
+        ],
+        "comparison_psf_fwhm_px": [
+          1.4791142551782457,
+          1.3973515879659726
+        ],
+        "reference_covariance_px2": [
+          [
+            0.4039920592497844,
+            0.0012545320060545597
+          ],
+          [
+            0.0012545320060545597,
+            0.3520983347241481
+          ]
+        ],
+        "comparison_covariance_px2": [
+          [
+            0.3945019405189735,
+            0.001222997981024183
+          ],
+          [
+            0.001222997981024183,
+            0.35215954718227577
+          ]
+        ],
+        "target_covariance_px2": [
+          [
+            0.43422348838057445,
+            0.0
+          ],
+          [
+            0.0,
+            0.43422348838057445
+          ]
+        ],
+        "reference_kernel_shape": [
+          5,
+          5
+        ],
+        "comparison_kernel_shape": [
+          5,
+          5
+        ],
+        "safety_fraction": 0.05,
+        "minimum_padding_px2": 0.01
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_001.fits",
+      "difference_preview": "previews\\difference_000_001.png",
+      "significance_fits": "processed\\significance_000_001.fits",
+      "significance_preview": "previews\\significance_000_001.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": 0.005917814013567668,
+        "robust_scatter": 0.03438405236042366,
+        "sample_pixels": 45197,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.27425432732949684,
+        "scatter": 0.056074581622766975,
+        "sample_pixels": 45197
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.28177861273015997,
+        "scatter": 0.05903492317744995,
+        "sample_pixels": 45197
+      },
+      "source_catalogue": {
+        "reference_source_count": 271,
+        "comparison_source_count": 485,
+        "matched_candidate_count": 125,
+        "photometry_available": true,
+        "reference_covariance_available": true,
+        "comparison_covariance_available": true
+      },
+      "candidate_count": 1342,
+      "noise_covariance": {
+        "status": "empirically_estimated",
+        "method": "robust clipped blank-sky autocorrelation",
+        "max_lag_px": 3,
+        "blank_sky_samples": 45197,
+        "correlation_kernel": [
+          [
+            0.026564298521504173,
+            0.04251078336242091,
+            0.0629319429784626,
+            0.08131906492116715,
+            0.053207918006171716,
+            0.036469258973225685,
+            0.025750834431522575
+          ],
+          [
+            0.04761593452833137,
+            0.07538657460635856,
+            0.11999565427308985,
+            0.1658453251964679,
+            0.12030428612643536,
+            0.0655489418019529,
+            0.04354989321884921
+          ],
+          [
+            0.04720938021308602,
+            0.05873733511981184,
+            -0.08256494658306471,
+            -0.202708990736536,
+            -0.072682962256325,
+            0.06500030576621932,
+            0.04873707399464265
+          ],
+          [
+            0.05037498777153013,
+            0.07259684707534311,
+            0.2531071602449163,
+            1.0,
+            0.2531071602449163,
+            0.07259684707534311,
+            0.05037498777153013
+          ],
+          [
+            0.04873707399464265,
+            0.06500030576621932,
+            -0.072682962256325,
+            -0.202708990736536,
+            -0.08256494658306471,
+            0.05873733511981184,
+            0.04720938021308602
+          ],
+          [
+            0.04354989321884921,
+            0.0655489418019529,
+            0.12030428612643536,
+            0.1658453251964679,
+            0.11999565427308985,
+            0.07538657460635856,
+            0.04761593452833137
+          ],
+          [
+            0.025750834431522575,
+            0.036469258973225685,
+            0.053207918006171716,
+            0.08131906492116715,
+            0.0629319429784626,
+            0.04251078336242091,
+            0.026564298521504173
+          ]
+        ],
+        "reference_blank_sky_samples": 45197,
+        "comparison_blank_sky_samples": 45197
+      },
+      "variance_covariance_note": "Marginal variances are propagated through reprojection and PSF matching; empirical short-range covariance is estimated from masked blank sky and used for candidate/aperture significance.",
+      "psf_matching_status": "performed_before_difference_and_photometry",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    },
+    {
+      "reference_observation_id": "2026W34_1A_0363_1",
+      "comparison_observation_id": "2026W34_1A_0363_3",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 1212,
+        "median_offset_px": 0.07288454355465303,
+        "rms_offset_px": 0.33500397927680503,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "psf_matching": {
+        "status": "complete",
+        "method": "local EPSF/PSF moment matching with normalized Gaussian convolution",
+        "reference_psf_fwhm_px": [
+          1.4967884728840195,
+          1.3972400173532968
+        ],
+        "comparison_psf_fwhm_px": [
+          1.4761645761141775,
+          1.4023277741019657
+        ],
+        "reference_covariance_px2": [
+          [
+            0.4039920592497844,
+            0.0012545320060545597
+          ],
+          [
+            0.0012545320060545597,
+            0.3520983347241481
+          ]
+        ],
+        "comparison_covariance_px2": [
+          [
+            0.3928891511773213,
+            0.001705782437023859
+          ],
+          [
+            0.0017057824370238592,
+            0.3547127214947991
+          ]
+        ],
+        "target_covariance_px2": [
+          [
+            0.43422348838057445,
+            0.0
+          ],
+          [
+            0.0,
+            0.43422348838057445
+          ]
+        ],
+        "reference_kernel_shape": [
+          5,
+          5
+        ],
+        "comparison_kernel_shape": [
+          5,
+          5
+        ],
+        "safety_fraction": 0.05,
+        "minimum_padding_px2": 0.01
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_002.fits",
+      "difference_preview": "previews\\difference_000_002.png",
+      "significance_fits": "processed\\significance_000_002.fits",
+      "significance_preview": "previews\\significance_000_002.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": 0.006413941680479623,
+        "robust_scatter": 0.03344706522745444,
+        "sample_pixels": 46496,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.2770833846632469,
+        "scatter": 0.059279941946880785,
+        "sample_pixels": 46496
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.2838085520790393,
+        "scatter": 0.06378483880382399,
+        "sample_pixels": 46496
+      },
+      "source_catalogue": {
+        "reference_source_count": 271,
+        "comparison_source_count": 291,
+        "matched_candidate_count": 83,
+        "photometry_available": true,
+        "reference_covariance_available": true,
+        "comparison_covariance_available": true
+      },
+      "candidate_count": 695,
+      "noise_covariance": {
+        "status": "empirically_estimated",
+        "method": "robust clipped blank-sky autocorrelation",
+        "max_lag_px": 3,
+        "blank_sky_samples": 46496,
+        "correlation_kernel": [
+          [
+            0.15334231941595278,
+            0.15348263513149485,
+            0.16036678191408846,
+            0.1647260581838252,
+            0.15521144998655087,
+            0.16299662428683123,
+            0.15435055810000406
+          ],
+          [
+            0.15686760526170407,
+            0.16832943114393095,
+            0.17786403873806061,
+            0.21378186451651124,
+            0.17271635142120695,
+            0.18047217924316936,
+            0.16356484888858375
+          ],
+          [
+            0.18287224297695842,
+            0.19523927302888366,
+            0.09939816233590283,
+            0.30116983242288403,
+            0.08715162418545341,
+            0.20227152503180804,
+            0.17562989722845082
+          ],
+          [
+            0.19138444386617748,
+            0.23027277650974143,
+            -0.009389598412340498,
+            1.0,
+            -0.009389598412340498,
+            0.23027277650974143,
+            0.19138444386617748
+          ],
+          [
+            0.17562989722845082,
+            0.20227152503180804,
+            0.08715162418545341,
+            0.30116983242288403,
+            0.09939816233590283,
+            0.19523927302888366,
+            0.18287224297695842
+          ],
+          [
+            0.16356484888858375,
+            0.18047217924316936,
+            0.17271635142120695,
+            0.21378186451651124,
+            0.17786403873806061,
+            0.16832943114393095,
+            0.15686760526170407
+          ],
+          [
+            0.15435055810000406,
+            0.16299662428683123,
+            0.15521144998655087,
+            0.1647260581838252,
+            0.16036678191408846,
+            0.15348263513149485,
+            0.15334231941595278
+          ]
+        ],
+        "reference_blank_sky_samples": 46496,
+        "comparison_blank_sky_samples": 46496
+      },
+      "variance_covariance_note": "Marginal variances are propagated through reprojection and PSF matching; empirical short-range covariance is estimated from masked blank sky and used for candidate/aperture significance.",
+      "psf_matching_status": "performed_before_difference_and_photometry",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    },
+    {
+      "reference_observation_id": "2026W34_1A_0363_1",
+      "comparison_observation_id": "2026W34_1A_0456_1",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 1066,
+        "median_offset_px": 0.09293080015423269,
+        "rms_offset_px": 0.39204581235406494,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "psf_matching": {
+        "status": "complete",
+        "method": "local EPSF/PSF moment matching with normalized Gaussian convolution",
+        "reference_psf_fwhm_px": [
+          1.4967884728840195,
+          1.3972400173532968
+        ],
+        "comparison_psf_fwhm_px": [
+          1.489904667337904,
+          1.4015504485537078
+        ],
+        "reference_covariance_px2": [
+          [
+            0.4039920592497844,
+            0.0012545320060545597
+          ],
+          [
+            0.0012545320060545597,
+            0.3520983347241481
+          ]
+        ],
+        "comparison_covariance_px2": [
+          [
+            0.4002643048033913,
+            0.001522552123177859
+          ],
+          [
+            0.0015225521231778591,
+            0.3542939793074016
+          ]
+        ],
+        "target_covariance_px2": [
+          [
+            0.43422348838057445,
+            0.0
+          ],
+          [
+            0.0,
+            0.43422348838057445
+          ]
+        ],
+        "reference_kernel_shape": [
+          5,
+          5
+        ],
+        "comparison_kernel_shape": [
+          5,
+          5
+        ],
+        "safety_fraction": 0.05,
+        "minimum_padding_px2": 0.01
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_003.fits",
+      "difference_preview": "previews\\difference_000_003.png",
+      "significance_fits": "processed\\significance_000_003.fits",
+      "significance_preview": "previews\\significance_000_003.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": 0.002014262419864757,
+        "robust_scatter": 0.03301086001821071,
+        "sample_pixels": 40890,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.27407324914273146,
+        "scatter": 0.05573028094757191,
+        "sample_pixels": 40890
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.2768004693129808,
+        "scatter": 0.05769815329054598,
+        "sample_pixels": 40890
+      },
+      "source_catalogue": {
+        "reference_source_count": 271,
+        "comparison_source_count": 509,
+        "matched_candidate_count": 124,
+        "photometry_available": true,
+        "reference_covariance_available": true,
+        "comparison_covariance_available": true
+      },
+      "candidate_count": 1023,
+      "noise_covariance": {
+        "status": "empirically_estimated",
+        "method": "robust clipped blank-sky autocorrelation",
+        "max_lag_px": 3,
+        "blank_sky_samples": 40890,
+        "correlation_kernel": [
+          [
+            0.07103559908852664,
+            0.07224162354614902,
+            0.09593141073910624,
+            0.10207738696633085,
+            0.08443136713543599,
+            0.0805361835853515,
+            0.07372800462854381
+          ],
+          [
+            0.08596483278259644,
+            0.10099044651042195,
+            0.10950212777636005,
+            0.14399314998711527,
+            0.11278874091634042,
+            0.09153245948527597,
+            0.08625905399868666
+          ],
+          [
+            0.11092731488732617,
+            0.131407361077425,
+            -0.004223928614579257,
+            0.23371782738442165,
+            0.013309320550673898,
+            0.12656299313537028,
+            0.11079391758914052
+          ],
+          [
+            0.12339655248481009,
+            0.17317140324480293,
+            -0.09856552963961304,
+            1.0,
+            -0.09856552963961304,
+            0.17317140324480293,
+            0.12339655248481009
+          ],
+          [
+            0.11079391758914052,
+            0.12656299313537028,
+            0.013309320550673898,
+            0.23371782738442165,
+            -0.004223928614579257,
+            0.131407361077425,
+            0.11092731488732617
+          ],
+          [
+            0.08625905399868666,
+            0.09153245948527597,
+            0.11278874091634042,
+            0.14399314998711527,
+            0.10950212777636005,
+            0.10099044651042195,
+            0.08596483278259644
+          ],
+          [
+            0.07372800462854381,
+            0.0805361835853515,
+            0.08443136713543599,
+            0.10207738696633085,
+            0.09593141073910624,
+            0.07224162354614902,
+            0.07103559908852664
+          ]
+        ],
+        "reference_blank_sky_samples": 40890,
+        "comparison_blank_sky_samples": 40890
+      },
+      "variance_covariance_note": "Marginal variances are propagated through reprojection and PSF matching; empirical short-range covariance is estimated from masked blank sky and used for candidate/aperture significance.",
+      "psf_matching_status": "performed_before_difference_and_photometry",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "status": "complete",
+  "reference_grid": {
+    "shape_out": [
+      293,
+      245
+    ],
+    "radesys": "ICRS",
+    "ctype": [
+      "RA---TAN-SIP",
+      "DEC--TAN-SIP"
+    ],
+    "crval": [
+      267.845626274,
+      3.89589872607
+    ],
+    "crpix": [
+      -774.5,
+      693.5
+    ],
+    "pixel_scale_matrix": [
+      [
+        0.00170212226143,
+        -5.21958449556e-05
+      ],
+      [
+        -5.257526077e-05,
+        -0.0017065118733
+      ]
+    ],
+    "reference_observation_id": "2026W34_1A_0363_1"
+  },
+  "reprojection": {
+    "science_interpolation": "bilinear",
+    "flags_interpolation": "nearest-neighbor",
+    "variance_method": "squared bilinear weights; assumes independent input pixels",
+    "covariance_modelled": "empirical short-range autocorrelation measured on masked blank sky"
+  },
+  "masking": {
+    "nonfinite_science": true,
+    "invalid_variance": true,
+    "coverage_footprint": true,
+    "flag_definitions_source": "FITS FLAGS HDU header (MSKN/MSKM/MSKD or MP_* bit positions)"
+  },
+  "calibration_and_normalization": {
+    "release_band_unit_compatibility_required": true,
+    "background_offset": "source-masked diagnostic only; not applied",
+    "photometric_scale_normalization": "not applied",
+    "psf_matching": "local spatial PSFs homogenized to a conservative common Gaussian before differencing"
+  },
+  "alignment_tolerances": {
+    "min_background_matches": 3,
+    "median_offset_px_max": 0.5,
+    "rms_offset_px_max": 1.0,
+    "target_exclusion_radius_px": 3.0
+  },
+  "candidate_count": 3060
+}
