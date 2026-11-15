@@ -1,0 +1,841 @@
+{
+    "project": "Planet X and SPHEREx - Member 1 Dataset",
+    "observations": [
+        {
+            "product_id": "2025W19_1B_0116_1",
+            "target_name": "SPS_119395",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2025-05-05T16:48:02.419",
+            "observation_end_utc": "2025-05-05T16:49:57.590",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W19_1B/l2b-v20-2025-241/3/level2_2025W19_1B_0116_1D3_spx_l2b-v20-2025-241.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W19_1B_0116_1_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W19_1B_0181_1",
+            "target_name": "SPS_119410",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-05-06T02:33:29.894",
+            "observation_end_utc": "2025-05-06T02:35:25.066",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W19_1B/l2b-v20-2025-241/2/level2_2025W19_1B_0181_1D2_spx_l2b-v20-2025-241.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W19_1B_0181_1_SPHEREx-D2_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W20_2D_0243_1",
+            "target_name": "SPS_105365",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2025-05-16T22:56:23.626",
+            "observation_end_utc": "2025-05-16T22:58:18.797",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W20_2D/l2b-v20-2025-247/3/level2_2025W20_2D_0243_1D3_spx_l2b-v20-2025-247.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W20_2D_0243_1_SPHEREx-D3_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W21_1B_0329_1",
+            "target_name": "SPS_105361",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2025-05-20T16:37:27.552",
+            "observation_end_utc": "2025-05-20T16:39:22.723",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W21_1B/l2b-v20-2025-248/6/level2_2025W21_1B_0329_1D6_spx_l2b-v20-2025-248.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W21_1B_0329_1_SPHEREx-D6_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W23_1C_0021_1",
+            "target_name": "SPS_104940",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2025-06-02T03:01:42.816",
+            "observation_end_utc": "2025-06-02T03:03:37.901",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_1C/l2b-v20-2025-251/3/level2_2025W23_1C_0021_1D3_spx_l2b-v20-2025-251.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_1C_0021_1_SPHEREx-D3_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W23_1C_0607_3",
+            "target_name": "SPS_105376",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2025-06-05T04:28:08.976",
+            "observation_end_utc": "2025-06-05T04:30:04.061",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_1C/l2b-v20-2025-251/6/level2_2025W23_1C_0607_3D6_spx_l2b-v20-2025-251.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_1C_0607_3_SPHEREx-D6_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W23_2B_0206_1",
+            "target_name": "SPS_105008",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D1",
+            "wavelength_min_um": 0.7455,
+            "wavelength_max_um": 1.1167,
+            "observation_start_utc": "2025-06-06T11:22:23.837",
+            "observation_end_utc": "2025-06-06T11:24:19.008",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_2B/l2b-v20-2025-252/1/level2_2025W23_2B_0206_1D1_spx_l2b-v20-2025-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_2B_0206_1_SPHEREx-D1_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W23_2B_0696_1",
+            "target_name": "SPS_104970",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-06-08T18:54:21.686",
+            "observation_end_utc": "2025-06-08T18:56:16.771",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_2B/l2b-v20-2025-251/2/level2_2025W23_2B_0696_1D2_spx_l2b-v20-2025-251.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_2B_0696_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W24_1A_0123_1",
+            "target_name": "SPS_104966",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2025-06-09T12:50:34.454",
+            "observation_end_utc": "2025-06-09T12:52:29.539",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/5/level2_2025W24_1A_0123_1D5_spx_l2b-v20-2025-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0123_1_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W24_1A_0215_1",
+            "target_name": "SPS_105387",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-06-10T00:15:14.198",
+            "observation_end_utc": "2025-06-10T00:17:09.370",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/2/level2_2025W24_1A_0215_1D2_spx_l2b-v20-2025-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0215_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W24_1A_0457_1",
+            "target_name": "SPS_105366",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2025-06-11T07:14:46.838",
+            "observation_end_utc": "2025-06-11T07:16:42.010",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/3/level2_2025W24_1A_0457_1D3_spx_l2b-v20-2025-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0457_1_SPHEREx-D3_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W24_1A_0631_1",
+            "target_name": "SPS_105371",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2025-06-12T06:04:07.968",
+            "observation_end_utc": "2025-06-12T06:06:03.053",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/6/level2_2025W24_1A_0631_1D6_spx_l2b-v20-2025-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0631_1_SPHEREx-D6_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W24_2D_0534_1",
+            "target_name": "SPS_104974",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2025-06-15T10:42:02.822",
+            "observation_end_utc": "2025-06-15T10:43:57.907",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_2D/l2b-v20-2025-253/5/level2_2025W24_2D_0534_1D5_spx_l2b-v20-2025-253.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_2D_0534_1_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W25_2A_0441_1",
+            "target_name": "SPS_104984",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-06-21T16:44:27.197",
+            "observation_end_utc": "2025-06-21T16:46:22.368",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W25_2A/l2b-v20-2025-254/2/level2_2025W25_2A_0441_1D2_spx_l2b-v20-2025-254.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W25_2A_0441_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W25_2A_0633_1",
+            "target_name": "SPS_105390",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2025-06-22T15:31:45.552",
+            "observation_end_utc": "2025-06-22T15:33:40.637",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W25_2A/l2b-v20-2025-254/5/level2_2025W25_2A_0633_1D5_spx_l2b-v20-2025-254.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W25_2A_0633_1_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W26_1A_0506_1",
+            "target_name": "SPS_104991",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-06-25T13:38:15.072",
+            "observation_end_utc": "2025-06-25T13:40:10.157",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W26_1A/l2b-v20-2025-257/2/level2_2025W26_1A_0506_1D2_spx_l2b-v20-2025-257.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W26_1A_0506_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W26_2A_0170_4",
+            "target_name": "SPS_105400",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2025-06-27T04:52:43.219",
+            "observation_end_utc": "2025-06-27T04:54:38.304",
+            "requested_center": {
+                "ra_deg": 248.16761,
+                "dec_deg": 66.75498
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W26_2A/l2b-v20-2025-257/5/level2_2025W26_2A_0170_4D5_spx_l2b-v20-2025-257.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W26_2A_0170_4_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W45_1A_0095_4",
+            "target_name": "SPS_48064",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2025-11-03T10:36:45.043",
+            "observation_end_utc": "2025-11-03T10:38:40.128",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W45_1A/l2b-v20-2025-311/4/level2_2025W45_1A_0095_4D4_spx_l2b-v20-2025-311.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W45_1A_0095_4_SPHEREx-D4_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W45_2A_0164_1",
+            "target_name": "SPS_48081",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2025-11-07T05:47:01.450",
+            "observation_end_utc": "2025-11-07T05:48:56.621",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W45_2A/l2b-v20-2025-314/5/level2_2025W45_2A_0164_1D5_spx_l2b-v20-2025-314.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W45_2A_0164_1_SPHEREx-D5_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W45_2A_0367_1",
+            "target_name": "SPS_46351",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-11-08T04:31:52.493",
+            "observation_end_utc": "2025-11-08T04:33:47.578",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W45_2A/l2b-v20-2025-314/2/level2_2025W45_2A_0367_1D2_spx_l2b-v20-2025-314.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W45_2A_0367_1_SPHEREx-D2_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W46_1A_0075_4",
+            "target_name": "SPS_48099",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2025-11-10T07:07:24.125",
+            "observation_end_utc": "2025-11-10T07:09:19.296",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W46_1A/l2b-v20-2025-318/6/level2_2025W46_1A_0075_4D6_spx_l2b-v20-2025-318.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W46_1A_0075_4_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W46_2A_0214_1",
+            "target_name": "SPS_46373",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2025-11-14T12:07:21.418",
+            "observation_end_utc": "2025-11-14T12:09:16.502",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W46_2A/l2b-v20-2025-321/3/level2_2025W46_2A_0214_1D3_spx_l2b-v20-2025-321.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W46_2A_0214_1_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W50_2A_0086_1",
+            "target_name": "SPS_46357",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2025-12-11T19:17:18.730",
+            "observation_end_utc": "2025-12-11T19:19:13.901",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W50_2A/l2b-v20-2025-349/5/level2_2025W50_2A_0086_1D5_spx_l2b-v20-2025-349.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W50_2A_0086_1_SPHEREx-D5_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W50_2A_0232_1",
+            "target_name": "SPS_46375",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2025-12-12T06:47:16.253",
+            "observation_end_utc": "2025-12-12T06:49:11.424",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W50_2A/l2b-v20-2025-349/6/level2_2025W50_2A_0232_1D6_spx_l2b-v20-2025-349.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W50_2A_0232_1_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2025W50_2A_0479_1",
+            "target_name": "SPS_46353",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2025-12-13T05:32:45.658",
+            "observation_end_utc": "2025-12-13T05:34:40.829",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W50_2A/l2b-v20-2025-349/2/level2_2025W50_2A_0479_1D2_spx_l2b-v20-2025-349.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W50_2A_0479_1_SPHEREx-D2_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W17_1B_0227_2",
+            "target_name": "SPS_117644",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2026-04-21T04:45:01.411",
+            "observation_end_utc": "2026-04-21T04:46:56.582",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_1B/l2b-v24-2026-115/3/level2_2026W17_1B_0227_2D3_spx_l2b-v24-2026-115.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_1B_0227_2_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W17_1B_0507_1",
+            "target_name": "SPS_117647",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2026-04-22T18:10:31.066",
+            "observation_end_utc": "2026-04-22T18:12:26.150",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_1B/l2b-v24-2026-115/6/level2_2026W17_1B_0507_1D6_spx_l2b-v24-2026-115.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_1B_0507_1_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W17_1B_0634_1",
+            "target_name": "SPS_117650",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2026-04-23T10:28:29.885",
+            "observation_end_utc": "2026-04-23T10:30:24.970",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_1B/l2b-v24-2026-115/3/level2_2026W17_1B_0634_1D3_spx_l2b-v24-2026-115.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_1B_0634_1_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W17_2A_0591_1",
+            "target_name": "SPS_117656",
+            "collection": "spherex_qr2",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2026-04-26T02:03:08.150",
+            "observation_end_utc": "2026-04-26T02:05:03.235",
+            "requested_center": {
+                "ra_deg": 133.79513,
+                "dec_deg": -7.24515
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_2A/l2b-v24-2026-118/6/level2_2026W17_2A_0591_1D6_spx_l2b-v24-2026-118.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_2A_0591_1_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W36_1A_0476_1",
+            "target_name": "SPS_004046_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D1",
+            "wavelength_min_um": 0.7455,
+            "wavelength_max_um": 1.1167,
+            "observation_start_utc": "2026-09-02T02:19:55.402",
+            "observation_end_utc": "2026-09-02T02:21:50.573",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/1/level2_2026W36_1A_0476_1D1_spx_l2b-v27-2026-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_1_SPHEREx-D1_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W36_1A_0476_1",
+            "target_name": "SPS_004046_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2026-09-02T02:19:55.402",
+            "observation_end_utc": "2026-09-02T02:21:50.573",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_1D4_spx_l2b-v27-2026-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_1_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W36_1A_0476_2",
+            "target_name": "SPS_004047_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2026-09-02T02:22:04.397",
+            "observation_end_utc": "2026-09-02T02:23:59.482",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_2D4_spx_l2b-v27-2026-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_2_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W36_1A_0476_3",
+            "target_name": "SPS_004048_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2026-09-02T02:24:13.306",
+            "observation_end_utc": "2026-09-02T02:26:08.390",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_3D4_spx_l2b-v27-2026-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_3_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W36_1A_0476_4",
+            "target_name": "SPS_004049_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2026-09-02T02:26:22.214",
+            "observation_end_utc": "2026-09-02T02:28:17.299",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_4D4_spx_l2b-v27-2026-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_4_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W36_1A_0493_1",
+            "target_name": "SPS_004050_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2026-09-02T04:04:11.626",
+            "observation_end_utc": "2026-09-02T04:06:06.797",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0493_1D4_spx_l2b-v27-2026-252.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0493_1_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W37_1A_0234_2",
+            "target_name": "SPS_002215_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D4",
+            "wavelength_min_um": 2.4027,
+            "wavelength_max_um": 3.8473,
+            "observation_start_utc": "2026-09-08T06:36:13.651",
+            "observation_end_utc": "2026-09-08T06:38:08.736",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/4/level2_2026W37_1A_0234_2D4_spx_l2b-v27-2026-255.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0234_2_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W37_1A_0365_1",
+            "target_name": "SPS_002222_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D1",
+            "wavelength_min_um": 0.7455,
+            "wavelength_max_um": 1.1167,
+            "observation_start_utc": "2026-09-09T00:31:29.741",
+            "observation_end_utc": "2026-09-09T00:33:24.826",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/1/level2_2026W37_1A_0365_1D1_spx_l2b-v27-2026-255.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0365_1_SPHEREx-D1_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W37_1A_0615_1",
+            "target_name": "SPS_004080_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2026-09-10T09:05:00.154",
+            "observation_end_utc": "2026-09-10T09:06:55.238",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/2/level2_2026W37_1A_0615_1D2_spx_l2b-v27-2026-255.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0615_1_SPHEREx-D2_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W37_2A_0287_3",
+            "target_name": "SPS_002248_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D5",
+            "wavelength_min_um": 3.8113,
+            "wavelength_max_um": 4.43,
+            "observation_start_utc": "2026-09-11T20:59:22.502",
+            "observation_end_utc": "2026-09-11T21:01:17.587",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_2A/l2b-v27-2026-259/5/level2_2026W37_2A_0287_3D5_spx_l2b-v27-2026-259.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_2A_0287_3_SPHEREx-D5_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W37_2A_0516_1",
+            "target_name": "SPS_002250_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D2",
+            "wavelength_min_um": 1.1033,
+            "wavelength_max_um": 1.6499,
+            "observation_start_utc": "2026-09-12T22:59:58.502",
+            "observation_end_utc": "2026-09-12T23:01:53.587",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_2A/l2b-v27-2026-259/2/level2_2026W37_2A_0516_1D2_spx_l2b-v27-2026-259.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_2A_0516_1_SPHEREx-D2_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W37_2A_0581_1",
+            "target_name": "SPS_004097_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2026-09-13T07:08:31.862",
+            "observation_end_utc": "2026-09-13T07:10:26.947",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_2A/l2b-v27-2026-259/3/level2_2026W37_2A_0581_1D3_spx_l2b-v27-2026-259.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_2A_0581_1_SPHEREx-D3_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W38_1A_0162_2",
+            "target_name": "SPS_002266_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2026-09-14T20:33:58.406",
+            "observation_end_utc": "2026-09-14T20:35:53.491",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W38_1A/l2b-v27-2026-261/6/level2_2026W38_1A_0162_2D6_spx_l2b-v27-2026-261.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W38_1A_0162_2_SPHEREx-D6_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W38_1A_0213_1",
+            "target_name": "SPS_004101_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D3",
+            "wavelength_min_um": 1.6301,
+            "wavelength_max_um": 2.4346,
+            "observation_start_utc": "2026-09-15T03:06:02.102",
+            "observation_end_utc": "2026-09-15T03:07:57.274",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W38_1A/l2b-v27-2026-261/3/level2_2026W38_1A_0213_1D3_spx_l2b-v27-2026-261.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W38_1A_0213_1_SPHEREx-D3_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        },
+        {
+            "product_id": "2026W38_1A_0435_1",
+            "target_name": "SPS_002273_S34",
+            "collection": "spherex_qr3",
+            "infrared_band": "SPHEREx-D6",
+            "wavelength_min_um": 4.4115,
+            "wavelength_max_um": 5.0096,
+            "observation_start_utc": "2026-09-16T06:48:20.880",
+            "observation_end_utc": "2026-09-16T06:50:15.965",
+            "requested_center": {
+                "ra_deg": 76.95653,
+                "dec_deg": 30.40144
+            },
+            "cutout_size_deg": 0.05,
+            "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W38_1A/l2b-v27-2026-261/6/level2_2026W38_1A_0435_1D6_spx_l2b-v27-2026-261.fits",
+            "local_file_path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W38_1A_0435_1_SPHEREx-D6_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+            "download_status": "downloaded",
+            "error_message": null
+        }
+    ]
+}
