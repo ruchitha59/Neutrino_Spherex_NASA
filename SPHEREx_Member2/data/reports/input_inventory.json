@@ -1,0 +1,138 @@
+{
+  "manifest_observation_records": 46,
+  "manifest_records_with_local_fits": 30,
+  "manifest_records_missing_local_fits": 16,
+  "present_by_collection": {
+    "spherex_qr3": 30
+  },
+  "missing_by_collection": {
+    "spherex_qr2": 16
+  },
+  "provided_fits_by_sky_field": {
+    "Barnard's Star field": 15,
+    "Epsilon Indi B field": 15
+  },
+  "provided_fits_by_band": {
+    "D3": 5,
+    "D6": 9,
+    "D2": 6,
+    "D5": 4,
+    "D1": 3,
+    "D4": 3
+  },
+  "target_coverage_note": "The supplied archive contains cutouts for the Barnard's Star and Epsilon Indi B sky fields only. No supplied FITS/manifest target coverage was found for WISE 0855, RW Aurigae or R Draconis.",
+  "missing_manifest_records": [
+    {
+      "product_id": "2025W20_2D_0192_2",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2025-05-16T15:33:25.517",
+      "local_file_path": "cutouts\\2025W20_2D_0192_2_SPHEREx-D2_cutout.fits"
+    },
+    {
+      "product_id": "2025W17_4B_0149_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2025-04-25T17:18:52.157",
+      "local_file_path": "cutouts\\2025W17_4B_0149_1_SPHEREx-D2_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W17_4B_0230_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D3",
+      "observation_start_utc": "2025-04-26T06:21:39.802",
+      "local_file_path": "cutouts\\2025W17_4B_0230_1_SPHEREx-D3_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W17_4B_0435_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D5",
+      "observation_start_utc": "2025-04-27T14:56:37.565",
+      "local_file_path": "cutouts\\2025W17_4B_0435_1_SPHEREx-D5_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W18_1B_0162_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D4",
+      "observation_start_utc": "2025-04-29T14:14:38.141",
+      "local_file_path": "cutouts\\2025W18_1B_0162_1_SPHEREx-D4_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W18_2B_0029_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2025-05-01T16:45:44.093",
+      "local_file_path": "cutouts\\2025W18_2B_0029_1_SPHEREx-D2_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W18_2B_0237_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D1",
+      "observation_start_utc": "2025-05-03T01:20:44.880",
+      "local_file_path": "cutouts\\2025W18_2B_0237_1_SPHEREx-D1_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W18_2B_0400_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D6",
+      "observation_start_utc": "2025-05-04T03:27:18.490",
+      "local_file_path": "cutouts\\2025W18_2B_0400_1_SPHEREx-D6_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W19_2B_0229_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D5",
+      "observation_start_utc": "2025-05-09T23:44:24.547",
+      "local_file_path": "cutouts\\2025W19_2B_0229_1_SPHEREx-D5_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W19_2B_0293_4",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2025-05-10T09:36:11.146",
+      "local_file_path": "cutouts\\2025W19_2B_0293_4_SPHEREx-D2_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W19_2B_0425_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D1",
+      "observation_start_utc": "2025-05-11T05:04:29.539",
+      "local_file_path": "cutouts\\2025W19_2B_0425_1_SPHEREx-D1_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W20_1C_0182_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D5",
+      "observation_start_utc": "2025-05-13T04:22:43.939",
+      "local_file_path": "cutouts\\2025W20_1C_0182_1_SPHEREx-D5_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W20_1C_0366_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2025-05-14T08:05:08.765",
+      "local_file_path": "cutouts\\2025W20_1C_0366_1_SPHEREx-D2_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W20_2D_0214_2",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D4",
+      "observation_start_utc": "2025-05-16T18:46:10.848",
+      "local_file_path": "cutouts\\2025W20_2D_0214_2_SPHEREx-D4_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W20_2D_0584_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D1",
+      "observation_start_utc": "2025-05-18T22:57:50.458",
+      "local_file_path": "cutouts\\2025W20_2D_0584_1_SPHEREx-D1_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    },
+    {
+      "product_id": "2025W21_1B_0047_1",
+      "collection": "spherex_qr2",
+      "infrared_band": "SPHEREx-D5",
+      "observation_start_utc": "2025-05-19T05:29:57.264",
+      "local_file_path": "cutouts\\2025W21_1B_0047_1_SPHEREx-D5_RA127.69444_DEC-39.17760_SIZE0.05000_cutout.fits"
+    }
+  ]
+}

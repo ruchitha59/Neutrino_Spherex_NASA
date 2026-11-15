@@ -1,0 +1,40 @@
+{
+  "status": "NOT_VERIFIED",
+  "inputs": {
+    "manifest_records": 46,
+    "local_fits_files": 30,
+    "local_qr3_files": 30,
+    "missing_qr2_files": 16,
+    "sky_fields": {
+      "Barnard's Star": 15,
+      "Epsilon Indi B": 15
+    },
+    "missing_prd_targets": [
+      "WISE 0855",
+      "RW Aurigae",
+      "R Draconis"
+    ]
+  },
+  "fits_header_findings": {
+    "all_files_hdu_layout": "PRIMARY, IMAGE, FLAGS, VARIANCE, ZODI, EPSF, WCS-WAVE",
+    "image_shape_distribution": {
+      "29x29": 29,
+      "26x29": 1
+    },
+    "all_image_headers_have_celestial_wcs_keywords": true,
+    "finast_zero_count": 30,
+    "astropy_fits_validation": "NOT RUN",
+    "astropy_wcs_validation": "NOT RUN"
+  },
+  "scientific_execution": {
+    "same_release_band_groups_exist": true,
+    "real_reprojection": "NOT RUN",
+    "background_alignment": "NOT RUN",
+    "real_difference_images": "NOT RUN",
+    "real_significance_images": "NOT RUN",
+    "real_photometry": "NOT RUN",
+    "real_candidate_detection": "NOT RUN"
+  },
+  "reason": "Astropy, reproject and Photutils are not installed in this environment; package installation could not reach the package index.",
+  "note": "The FITS structure was inspected at binary-header level and arrays were sanity-checked with NumPy. This is not a substitute for Astropy FITS/WCS validation."
+}

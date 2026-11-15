@@ -1,0 +1,4403 @@
+{
+  "schema_version": "1.0",
+  "job_id": "member1_final",
+  "created_utc": "2026-11-13T04:58:47.507853+00:00",
+  "software_version": "0.1.0",
+  "input_manifest": "data\\member1_manifest.json",
+  "input_observation_count": 44,
+  "usable_local_observation_count": 44,
+  "missing_or_failed_input_count": 0,
+  "input_failures": [],
+  "input_observation_ids": [
+    "2025W19_1B_0116_1",
+    "2025W19_1B_0181_1",
+    "2025W20_2D_0243_1",
+    "2025W21_1B_0329_1",
+    "2025W23_1C_0021_1",
+    "2025W23_1C_0607_3",
+    "2025W23_2B_0206_1",
+    "2025W23_2B_0696_1",
+    "2025W24_1A_0123_1",
+    "2025W24_1A_0215_1",
+    "2025W24_1A_0457_1",
+    "2025W24_1A_0631_1",
+    "2025W24_2D_0534_1",
+    "2025W25_2A_0441_1",
+    "2025W25_2A_0633_1",
+    "2025W26_1A_0506_1",
+    "2025W26_2A_0170_4",
+    "2025W45_1A_0095_4",
+    "2025W45_2A_0164_1",
+    "2025W45_2A_0367_1",
+    "2025W46_1A_0075_4",
+    "2025W46_2A_0214_1",
+    "2025W50_2A_0086_1",
+    "2025W50_2A_0232_1",
+    "2025W50_2A_0479_1",
+    "2026W17_1B_0227_2",
+    "2026W17_1B_0507_1",
+    "2026W17_1B_0634_1",
+    "2026W17_2A_0591_1",
+    "2026W36_1A_0476_1",
+    "2026W36_1A_0476_1",
+    "2026W36_1A_0476_2",
+    "2026W36_1A_0476_3",
+    "2026W36_1A_0476_4",
+    "2026W36_1A_0493_1",
+    "2026W37_1A_0234_2",
+    "2026W37_1A_0365_1",
+    "2026W37_1A_0615_1",
+    "2026W37_2A_0287_3",
+    "2026W37_2A_0516_1",
+    "2026W37_2A_0581_1",
+    "2026W38_1A_0162_2",
+    "2026W38_1A_0213_1",
+    "2026W38_1A_0435_1"
+  ],
+  "input_source_urls": [
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W19_1B/l2b-v20-2025-241/3/level2_2025W19_1B_0116_1D3_spx_l2b-v20-2025-241.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W19_1B/l2b-v20-2025-241/2/level2_2025W19_1B_0181_1D2_spx_l2b-v20-2025-241.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W20_2D/l2b-v20-2025-247/3/level2_2025W20_2D_0243_1D3_spx_l2b-v20-2025-247.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W21_1B/l2b-v20-2025-248/6/level2_2025W21_1B_0329_1D6_spx_l2b-v20-2025-248.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_1C/l2b-v20-2025-251/3/level2_2025W23_1C_0021_1D3_spx_l2b-v20-2025-251.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_1C/l2b-v20-2025-251/6/level2_2025W23_1C_0607_3D6_spx_l2b-v20-2025-251.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_2B/l2b-v20-2025-252/1/level2_2025W23_2B_0206_1D1_spx_l2b-v20-2025-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W23_2B/l2b-v20-2025-251/2/level2_2025W23_2B_0696_1D2_spx_l2b-v20-2025-251.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/5/level2_2025W24_1A_0123_1D5_spx_l2b-v20-2025-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/2/level2_2025W24_1A_0215_1D2_spx_l2b-v20-2025-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/3/level2_2025W24_1A_0457_1D3_spx_l2b-v20-2025-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_1A/l2b-v20-2025-252/6/level2_2025W24_1A_0631_1D6_spx_l2b-v20-2025-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W24_2D/l2b-v20-2025-253/5/level2_2025W24_2D_0534_1D5_spx_l2b-v20-2025-253.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W25_2A/l2b-v20-2025-254/2/level2_2025W25_2A_0441_1D2_spx_l2b-v20-2025-254.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W25_2A/l2b-v20-2025-254/5/level2_2025W25_2A_0633_1D5_spx_l2b-v20-2025-254.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W26_1A/l2b-v20-2025-257/2/level2_2025W26_1A_0506_1D2_spx_l2b-v20-2025-257.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W26_2A/l2b-v20-2025-257/5/level2_2025W26_2A_0170_4D5_spx_l2b-v20-2025-257.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W45_1A/l2b-v20-2025-311/4/level2_2025W45_1A_0095_4D4_spx_l2b-v20-2025-311.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W45_2A/l2b-v20-2025-314/5/level2_2025W45_2A_0164_1D5_spx_l2b-v20-2025-314.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W45_2A/l2b-v20-2025-314/2/level2_2025W45_2A_0367_1D2_spx_l2b-v20-2025-314.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W46_1A/l2b-v20-2025-318/6/level2_2025W46_1A_0075_4D6_spx_l2b-v20-2025-318.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W46_2A/l2b-v20-2025-321/3/level2_2025W46_2A_0214_1D3_spx_l2b-v20-2025-321.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W50_2A/l2b-v20-2025-349/5/level2_2025W50_2A_0086_1D5_spx_l2b-v20-2025-349.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W50_2A/l2b-v20-2025-349/6/level2_2025W50_2A_0232_1D6_spx_l2b-v20-2025-349.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W50_2A/l2b-v20-2025-349/2/level2_2025W50_2A_0479_1D2_spx_l2b-v20-2025-349.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_1B/l2b-v24-2026-115/3/level2_2026W17_1B_0227_2D3_spx_l2b-v24-2026-115.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_1B/l2b-v24-2026-115/6/level2_2026W17_1B_0507_1D6_spx_l2b-v24-2026-115.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_1B/l2b-v24-2026-115/3/level2_2026W17_1B_0634_1D3_spx_l2b-v24-2026-115.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2026W17_2A/l2b-v24-2026-118/6/level2_2026W17_2A_0591_1D6_spx_l2b-v24-2026-118.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/1/level2_2026W36_1A_0476_1D1_spx_l2b-v27-2026-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_1D4_spx_l2b-v27-2026-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_2D4_spx_l2b-v27-2026-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_3D4_spx_l2b-v27-2026-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_4D4_spx_l2b-v27-2026-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0493_1D4_spx_l2b-v27-2026-252.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/4/level2_2026W37_1A_0234_2D4_spx_l2b-v27-2026-255.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/1/level2_2026W37_1A_0365_1D1_spx_l2b-v27-2026-255.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/2/level2_2026W37_1A_0615_1D2_spx_l2b-v27-2026-255.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_2A/l2b-v27-2026-259/5/level2_2026W37_2A_0287_3D5_spx_l2b-v27-2026-259.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_2A/l2b-v27-2026-259/2/level2_2026W37_2A_0516_1D2_spx_l2b-v27-2026-259.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_2A/l2b-v27-2026-259/3/level2_2026W37_2A_0581_1D3_spx_l2b-v27-2026-259.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W38_1A/l2b-v27-2026-261/6/level2_2026W38_1A_0162_2D6_spx_l2b-v27-2026-261.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W38_1A/l2b-v27-2026-261/3/level2_2026W38_1A_0213_1D3_spx_l2b-v27-2026-261.fits",
+    "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W38_1A/l2b-v27-2026-261/6/level2_2026W38_1A_0435_1D6_spx_l2b-v27-2026-261.fits"
+  ],
+  "fits_inspection": [
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W19_1B_0116_1_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W19_1B_0116_1",
+      "observation_time": "2025-05-05T16:48:02.459",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W19_1B_0181_1_SPHEREx-D2_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W19_1B_0181_1",
+      "observation_time": "2025-05-06T02:33:29.930",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W20_2D_0243_1_SPHEREx-D3_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W20_2D_0243_1",
+      "observation_time": "2025-05-16T22:56:23.637",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W21_1B_0329_1_SPHEREx-D6_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W21_1B_0329_1",
+      "observation_time": "2025-05-20T16:37:27.588",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_1C_0021_1_SPHEREx-D3_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W23_1C_0021_1",
+      "observation_time": "2025-06-02T03:01:42.774",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_1C_0607_3_SPHEREx-D6_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W23_1C_0607_3",
+      "observation_time": "2025-06-05T04:28:08.976",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_2B_0206_1_SPHEREx-D1_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W23_2B_0206_1",
+      "observation_time": "2025-06-06T11:22:23.875",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W23_2B_0696_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W23_2B_0696_1",
+      "observation_time": "2025-06-08T18:54:21.662",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0123_1_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W24_1A_0123_1",
+      "observation_time": "2025-06-09T12:50:34.447",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0215_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W24_1A_0215_1",
+      "observation_time": "2025-06-10T00:15:14.226",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0457_1_SPHEREx-D3_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        30
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W24_1A_0457_1",
+      "observation_time": "2025-06-11T07:14:46.865",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            30
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            30
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            30
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            30
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_1A_0631_1_SPHEREx-D6_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W24_1A_0631_1",
+      "observation_time": "2025-06-12T06:04:07.954",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W24_2D_0534_1_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W24_2D_0534_1",
+      "observation_time": "2025-06-15T10:42:02.812",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W25_2A_0441_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        12
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W25_2A_0441_1",
+      "observation_time": "2025-06-21T16:44:27.222",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            12
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            12
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            12
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            12
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W25_2A_0633_1_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        7,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W25_2A_0633_1",
+      "observation_time": "2025-06-22T15:31:45.524",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            7,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            7,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            7,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            7,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W26_1A_0506_1_SPHEREx-D2_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        26
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W26_1A_0506_1",
+      "observation_time": "2025-06-25T13:38:15.060",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            26
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            26
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            26
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            26
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W26_2A_0170_4_SPHEREx-D5_RA248.16761_DEC66.75498_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W26_2A_0170_4",
+      "observation_time": "2025-06-27T04:52:43.205",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W45_1A_0095_4_SPHEREx-D4_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W45_1A_0095_4",
+      "observation_time": "2025-11-03T10:36:45.005",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W45_2A_0164_1_SPHEREx-D5_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W45_2A_0164_1",
+      "observation_time": "2025-11-07T05:47:01.461",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W45_2A_0367_1_SPHEREx-D2_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W45_2A_0367_1",
+      "observation_time": "2025-11-08T04:31:52.489",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W46_1A_0075_4_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W46_1A_0075_4",
+      "observation_time": "2025-11-10T07:07:24.164",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W46_2A_0214_1_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W46_2A_0214_1",
+      "observation_time": "2025-11-14T12:07:21.394",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W50_2A_0086_1_SPHEREx-D5_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W50_2A_0086_1",
+      "observation_time": "2025-12-11T19:17:18.753",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W50_2A_0232_1_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W50_2A_0232_1",
+      "observation_time": "2025-12-12T06:47:16.294",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2025W50_2A_0479_1_SPHEREx-D2_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2025W50_2A_0479_1",
+      "observation_time": "2025-12-13T05:32:45.700",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_1B_0227_2_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W17_1B_0227_2",
+      "observation_time": "2026-04-21T04:45:01.429",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_1B_0507_1_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W17_1B_0507_1",
+      "observation_time": "2026-04-22T18:10:31.030",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_1B_0634_1_SPHEREx-D3_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W17_1B_0634_1",
+      "observation_time": "2026-04-23T10:28:29.888",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W17_2A_0591_1_SPHEREx-D6_RA133.79513_DEC-7.24515_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W17_2A_0591_1",
+      "observation_time": "2026-04-26T02:03:08.146",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "PSF",
+          "shape": [
+            121,
+            101,
+            101
+          ],
+          "bunit": "",
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_1_SPHEREx-D1_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W36_1A_0476_1",
+      "observation_time": "2026-09-02T02:19:55.430",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_1_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W36_1A_0476_1",
+      "observation_time": "2026-09-02T02:19:55.430",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_2_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W36_1A_0476_2",
+      "observation_time": "2026-09-02T02:22:04.361",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_3_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W36_1A_0476_3",
+      "observation_time": "2026-09-02T02:24:13.292",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_4_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W36_1A_0476_4",
+      "observation_time": "2026-09-02T02:26:22.222",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0493_1_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W36_1A_0493_1",
+      "observation_time": "2026-09-02T04:04:11.644",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0234_2_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W37_1A_0234_2",
+      "observation_time": "2026-09-08T06:36:13.650",
+      "detector": 4,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0365_1_SPHEREx-D1_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W37_1A_0365_1",
+      "observation_time": "2026-09-09T00:31:29.713",
+      "detector": 1,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0615_1_SPHEREx-D2_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W37_1A_0615_1",
+      "observation_time": "2026-09-10T09:05:00.113",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_2A_0287_3_SPHEREx-D5_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        26,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W37_2A_0287_3",
+      "observation_time": "2026-09-11T20:59:22.469",
+      "detector": 5,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            26,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            26,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            26,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            26,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_2A_0516_1_SPHEREx-D2_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W37_2A_0516_1",
+      "observation_time": "2026-09-12T22:59:58.481",
+      "detector": 2,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_2A_0581_1_SPHEREx-D3_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W37_2A_0581_1",
+      "observation_time": "2026-09-13T07:08:31.824",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            451
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W38_1A_0162_2_SPHEREx-D6_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W38_1A_0162_2",
+      "observation_time": "2026-09-14T20:33:58.393",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W38_1A_0213_1_SPHEREx-D3_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W38_1A_0213_1",
+      "observation_time": "2026-09-15T03:06:02.128",
+      "detector": 3,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            451
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W38_1A_0435_1_SPHEREx-D6_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "hdu_count": 7,
+      "selected_science_hdu": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "bunit": "MJy / sr",
+      "wcs_valid": true,
+      "observation_id": "2026W38_1A_0435_1",
+      "observation_time": "2026-09-16T06:48:20.865",
+      "detector": 6,
+      "finast": 0,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "shape": null,
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "",
+          "wcs_valid": true
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy2 / sr2",
+          "wcs_valid": true
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "shape": [
+            29,
+            29
+          ],
+          "bunit": "MJy / sr",
+          "wcs_valid": true
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "shape": [
+            441
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "shape": [
+            1
+          ],
+          "bunit": null,
+          "wcs_valid": false
+        }
+      ]
+    }
+  ],
+  "groups_found": 16,
+  "selected_group": {
+    "collection": "spherex_qr3",
+    "band": "SPHEREx-D4",
+    "field_center_rounded_deg": [
+      76.9565,
+      30.4014
+    ],
+    "bunit": "MJy / sr",
+    "epoch_count": 6
+  },
+  "frames": [
+    {
+      "index": 0,
+      "observation_id": "2026W36_1A_0476_1",
+      "timestamp": "2026-09-02T02:19:55.402",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D4",
+      "wavelength_min_um": 2.4027,
+      "wavelength_max_um": 3.8473,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_1D4_spx_l2b-v27-2026-252.fits",
+      "source_file": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_1_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "aligned_fits": "processed\\frame_000_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 134,
+        "invalid_variance": 134,
+        "uncovered": 97,
+        "flag_HALO": 15,
+        "flag_GHOST_EXT": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_CROSSTALK": 0,
+        "flag_PHANMISS": 0,
+        "flag_TRANSIENT": 14,
+        "flag_HOT": 0,
+        "flag_SNOWBALL": 0,
+        "flag_OVERFLOW": 8,
+        "flag_OUTLIER": 0,
+        "flag_SUR_ERROR": 14,
+        "flag_PERSIST": 0,
+        "flag_COLD": 0,
+        "flag_GHOST": 0,
+        "flag_NONLINEAR": 0,
+        "flag_BLOOM": 12,
+        "flag_NONFUNC": 10,
+        "flag_MISSING_DATA": 0,
+        "flag_DICHROIC": 0,
+        "valid_pixels": 707,
+        "excluded_pixels": 134
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_000.png"
+    },
+    {
+      "index": 1,
+      "observation_id": "2026W36_1A_0476_2",
+      "timestamp": "2026-09-02T02:22:04.397",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D4",
+      "wavelength_min_um": 2.4027,
+      "wavelength_max_um": 3.8473,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_2D4_spx_l2b-v27-2026-252.fits",
+      "source_file": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_2_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "aligned_fits": "processed\\frame_001_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 135,
+        "invalid_variance": 135,
+        "uncovered": 95,
+        "flag_HALO": 9,
+        "flag_GHOST_EXT": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_CROSSTALK": 0,
+        "flag_PHANMISS": 0,
+        "flag_TRANSIENT": 19,
+        "flag_HOT": 0,
+        "flag_SNOWBALL": 0,
+        "flag_OVERFLOW": 2,
+        "flag_OUTLIER": 2,
+        "flag_SUR_ERROR": 11,
+        "flag_PERSIST": 0,
+        "flag_COLD": 0,
+        "flag_GHOST": 0,
+        "flag_NONLINEAR": 0,
+        "flag_BLOOM": 17,
+        "flag_NONFUNC": 4,
+        "flag_MISSING_DATA": 0,
+        "flag_DICHROIC": 0,
+        "valid_pixels": 706,
+        "excluded_pixels": 135
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_001.png"
+    },
+    {
+      "index": 2,
+      "observation_id": "2026W36_1A_0476_3",
+      "timestamp": "2026-09-02T02:24:13.306",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D4",
+      "wavelength_min_um": 2.4027,
+      "wavelength_max_um": 3.8473,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_3D4_spx_l2b-v27-2026-252.fits",
+      "source_file": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_3_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "aligned_fits": "processed\\frame_002_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 127,
+        "invalid_variance": 127,
+        "uncovered": 52,
+        "flag_HALO": 0,
+        "flag_GHOST_EXT": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_CROSSTALK": 0,
+        "flag_PHANMISS": 0,
+        "flag_TRANSIENT": 17,
+        "flag_HOT": 0,
+        "flag_SNOWBALL": 0,
+        "flag_OVERFLOW": 2,
+        "flag_OUTLIER": 0,
+        "flag_SUR_ERROR": 13,
+        "flag_PERSIST": 0,
+        "flag_COLD": 0,
+        "flag_GHOST": 0,
+        "flag_NONLINEAR": 0,
+        "flag_BLOOM": 14,
+        "flag_NONFUNC": 8,
+        "flag_MISSING_DATA": 0,
+        "flag_DICHROIC": 0,
+        "valid_pixels": 714,
+        "excluded_pixels": 127
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_002.png"
+    },
+    {
+      "index": 3,
+      "observation_id": "2026W36_1A_0476_4",
+      "timestamp": "2026-09-02T02:26:22.214",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D4",
+      "wavelength_min_um": 2.4027,
+      "wavelength_max_um": 3.8473,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0476_4D4_spx_l2b-v27-2026-252.fits",
+      "source_file": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0476_4_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "aligned_fits": "processed\\frame_003_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 135,
+        "invalid_variance": 135,
+        "uncovered": 97,
+        "flag_HALO": 7,
+        "flag_GHOST_EXT": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_CROSSTALK": 0,
+        "flag_PHANMISS": 0,
+        "flag_TRANSIENT": 14,
+        "flag_HOT": 0,
+        "flag_SNOWBALL": 0,
+        "flag_OVERFLOW": 4,
+        "flag_OUTLIER": 0,
+        "flag_SUR_ERROR": 13,
+        "flag_PERSIST": 0,
+        "flag_COLD": 0,
+        "flag_GHOST": 0,
+        "flag_NONLINEAR": 0,
+        "flag_BLOOM": 15,
+        "flag_NONFUNC": 5,
+        "flag_MISSING_DATA": 0,
+        "flag_DICHROIC": 0,
+        "valid_pixels": 706,
+        "excluded_pixels": 135
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_003.png"
+    },
+    {
+      "index": 4,
+      "observation_id": "2026W36_1A_0493_1",
+      "timestamp": "2026-09-02T04:04:11.626",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D4",
+      "wavelength_min_um": 2.4027,
+      "wavelength_max_um": 3.8473,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W36_1A/l2b-v27-2026-252/4/level2_2026W36_1A_0493_1D4_spx_l2b-v27-2026-252.fits",
+      "source_file": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W36_1A_0493_1_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "aligned_fits": "processed\\frame_004_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 121,
+        "invalid_variance": 121,
+        "uncovered": 64,
+        "flag_HALO": 11,
+        "flag_GHOST_EXT": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_CROSSTALK": 0,
+        "flag_PHANMISS": 0,
+        "flag_TRANSIENT": 21,
+        "flag_HOT": 0,
+        "flag_SNOWBALL": 0,
+        "flag_OVERFLOW": 0,
+        "flag_OUTLIER": 0,
+        "flag_SUR_ERROR": 13,
+        "flag_PERSIST": 0,
+        "flag_COLD": 0,
+        "flag_GHOST": 0,
+        "flag_NONLINEAR": 0,
+        "flag_BLOOM": 17,
+        "flag_NONFUNC": 3,
+        "flag_MISSING_DATA": 0,
+        "flag_DICHROIC": 0,
+        "valid_pixels": 720,
+        "excluded_pixels": 121
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_004.png"
+    },
+    {
+      "index": 5,
+      "observation_id": "2026W37_1A_0234_2",
+      "timestamp": "2026-09-08T06:36:13.651",
+      "collection": "spherex_qr3",
+      "band": "SPHEREx-D4",
+      "wavelength_min_um": 2.4027,
+      "wavelength_max_um": 3.8473,
+      "bunit": "MJy / sr",
+      "exposure_time_s": 118.1873,
+      "psf_extension_available": true,
+      "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W37_1A/l2b-v27-2026-255/4/level2_2026W37_1A_0234_2D4_spx_l2b-v27-2026-255.fits",
+      "source_file": "C:\\Users\\ruchitha\\Downloads\\Planet-x-remaining-targets\\cutouts\\2026W37_1A_0234_2_SPHEREx-D4_RA76.95653_DEC30.40144_SIZE0.05000_cutout.fits",
+      "aligned_fits": "processed\\frame_005_aligned.fits",
+      "mask_counts": {
+        "non_finite_science": 93,
+        "invalid_variance": 93,
+        "uncovered": 36,
+        "flag_HALO": 4,
+        "flag_GHOST_EXT": 0,
+        "flag_STREAK": 0,
+        "flag_GHOST_FPA": 0,
+        "flag_CROSSTALK": 0,
+        "flag_PHANMISS": 0,
+        "flag_TRANSIENT": 2,
+        "flag_HOT": 0,
+        "flag_SNOWBALL": 0,
+        "flag_OVERFLOW": 9,
+        "flag_OUTLIER": 0,
+        "flag_SUR_ERROR": 4,
+        "flag_PERSIST": 0,
+        "flag_COLD": 0,
+        "flag_GHOST": 0,
+        "flag_NONLINEAR": 0,
+        "flag_BLOOM": 0,
+        "flag_NONFUNC": 4,
+        "flag_MISSING_DATA": 0,
+        "flag_DICHROIC": 0,
+        "valid_pixels": 748,
+        "excluded_pixels": 93
+      },
+      "variance_available": true,
+      "finast": 0,
+      "preview": "previews\\frame_005.png"
+    }
+  ],
+  "comparisons": [
+    {
+      "reference_observation_id": "2026W36_1A_0476_1",
+      "comparison_observation_id": "2026W36_1A_0476_2",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 3,
+        "median_offset_px": 0.10631764294203794,
+        "rms_offset_px": 0.09151849130758269,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_001.fits",
+      "difference_preview": "previews\\difference_000_001.png",
+      "significance_fits": "processed\\significance_000_001.fits",
+      "significance_preview": "previews\\significance_000_001.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": -0.03283790486931212,
+        "robust_scatter": 0.026499034175460304,
+        "sample_pixels": 606,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.3032488075900621,
+        "scatter": 0.039360766428545524,
+        "sample_pixels": 606
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.26799354142571413,
+        "scatter": 0.03498685143992481,
+        "sample_pixels": 606
+      },
+      "source_catalogue": {
+        "reference_source_count": 1,
+        "comparison_source_count": 1,
+        "matched_candidate_count": 0,
+        "photometry_available": true
+      },
+      "candidate_count": 5,
+      "variance_covariance_note": "Significance is per-pixel; inter-pixel covariance from resampling is not modeled.",
+      "psf_matching": "not_performed",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    },
+    {
+      "reference_observation_id": "2026W36_1A_0476_1",
+      "comparison_observation_id": "2026W36_1A_0476_3",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 3,
+        "median_offset_px": 0.1379588191860158,
+        "rms_offset_px": 0.36582930742083875,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_002.fits",
+      "difference_preview": "previews\\difference_000_002.png",
+      "significance_fits": "processed\\significance_000_002.fits",
+      "significance_preview": "previews\\significance_000_002.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": -0.03274850522214612,
+        "robust_scatter": 0.027553111778145883,
+        "sample_pixels": 626,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.3042283201373509,
+        "scatter": 0.040408656054458786,
+        "sample_pixels": 626
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.2707798568560808,
+        "scatter": 0.03780564990581664,
+        "sample_pixels": 626
+      },
+      "source_catalogue": {
+        "reference_source_count": 1,
+        "comparison_source_count": 0,
+        "matched_candidate_count": 0,
+        "photometry_available": true
+      },
+      "candidate_count": 1,
+      "variance_covariance_note": "Significance is per-pixel; inter-pixel covariance from resampling is not modeled.",
+      "psf_matching": "not_performed",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    },
+    {
+      "reference_observation_id": "2026W36_1A_0476_1",
+      "comparison_observation_id": "2026W36_1A_0476_4",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 3,
+        "median_offset_px": 0.09280358255369264,
+        "rms_offset_px": 0.12094972361463893,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_003.fits",
+      "difference_preview": "previews\\difference_000_003.png",
+      "significance_fits": "processed\\significance_000_003.fits",
+      "significance_preview": "previews\\significance_000_003.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": -0.029852816390147863,
+        "robust_scatter": 0.02843726238140209,
+        "sample_pixels": 607,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.3036165538206277,
+        "scatter": 0.03964142578514176,
+        "sample_pixels": 607
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.2707980996035197,
+        "scatter": 0.033987084602503714,
+        "sample_pixels": 607
+      },
+      "source_catalogue": {
+        "reference_source_count": 1,
+        "comparison_source_count": 1,
+        "matched_candidate_count": 0,
+        "photometry_available": true
+      },
+      "candidate_count": 3,
+      "variance_covariance_note": "Significance is per-pixel; inter-pixel covariance from resampling is not modeled.",
+      "psf_matching": "not_performed",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    },
+    {
+      "reference_observation_id": "2026W36_1A_0476_1",
+      "comparison_observation_id": "2026W36_1A_0493_1",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": false,
+        "matches": 0,
+        "median_offset_px": null,
+        "rms_offset_px": null,
+        "reason": "Insufficient background sources (reference=6, comparison=1; need 3)."
+      },
+      "status": "blocked_alignment",
+      "reason": "Difference and candidate extraction withheld because background-source alignment did not pass."
+    },
+    {
+      "reference_observation_id": "2026W36_1A_0476_1",
+      "comparison_observation_id": "2026W37_1A_0234_2",
+      "compatibility": {
+        "compatible": true,
+        "reasons": [],
+        "warnings": [
+          "PSF extensions are present, but PSF matching has not been performed."
+        ],
+        "comparison_policy": "same collection, same band, same units and matching wavelength interval"
+      },
+      "alignment": {
+        "passed": true,
+        "matches": 5,
+        "median_offset_px": 0.0693838109658216,
+        "rms_offset_px": 0.08674287147522086,
+        "tolerance_median_px": 0.5,
+        "tolerance_rms_px": 1.0,
+        "reason": null
+      },
+      "status": "complete",
+      "difference_fits": "processed\\difference_000_005.fits",
+      "difference_preview": "previews\\difference_000_005.png",
+      "significance_fits": "processed\\significance_000_005.fits",
+      "significance_preview": "previews\\significance_000_005.png",
+      "background_diagnostic": {
+        "available": true,
+        "offset": -0.0292404506595543,
+        "robust_scatter": 0.028010691593828768,
+        "sample_pixels": 612,
+        "applied": false,
+        "note": "Diagnostic only. No automatic background subtraction was applied."
+      },
+      "reference_background": {
+        "available": true,
+        "median": 0.30141843710824306,
+        "scatter": 0.03726770459333837,
+        "sample_pixels": 612
+      },
+      "comparison_background": {
+        "available": true,
+        "median": 0.2675175250657709,
+        "scatter": 0.03487095510588823,
+        "sample_pixels": 612
+      },
+      "source_catalogue": {
+        "reference_source_count": 1,
+        "comparison_source_count": 2,
+        "matched_candidate_count": 1,
+        "photometry_available": true
+      },
+      "candidate_count": 6,
+      "variance_covariance_note": "Significance is per-pixel; inter-pixel covariance from resampling is not modeled.",
+      "psf_matching": "not_performed",
+      "photometric_claims": "not_supported_without_source_level_photometry_and_psf_validation"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "status": "complete",
+  "reference_grid": {
+    "shape_out": [
+      29,
+      29
+    ],
+    "radesys": "ICRS",
+    "ctype": [
+      "RA---TAN-SIP",
+      "DEC--TAN-SIP"
+    ],
+    "crval": [
+      75.4223106791,
+      30.9179652462
+    ],
+    "crpix": [
+      767.5,
+      392.5
+    ],
+    "pixel_scale_matrix": [
+      [
+        -0.00170308572462,
+        -0.000110745241885
+      ],
+      [
+        -0.000177041794655,
+        0.00170690862776
+      ]
+    ],
+    "reference_observation_id": "2026W36_1A_0476_1"
+  },
+  "reprojection": {
+    "science_interpolation": "bilinear",
+    "flags_interpolation": "nearest-neighbor",
+    "variance_method": "squared bilinear weights; assumes independent input pixels",
+    "covariance_modelled": false
+  },
+  "masking": {
+    "nonfinite_science": true,
+    "invalid_variance": true,
+    "coverage_footprint": true,
+    "flag_definitions_source": "FITS FLAGS HDU header (MSKN/MSKM/MSKD or MP_* bit positions)"
+  },
+  "calibration_and_normalization": {
+    "release_band_unit_compatibility_required": true,
+    "background_offset": "source-masked diagnostic only; not applied",
+    "photometric_scale_normalization": "not applied",
+    "psf_matching": "not performed"
+  },
+  "alignment_tolerances": {
+    "min_background_matches": 3,
+    "median_offset_px_max": 0.5,
+    "rms_offset_px_max": 1.0,
+    "target_exclusion_radius_px": 3.0
+  },
+  "candidate_count": 15
+}

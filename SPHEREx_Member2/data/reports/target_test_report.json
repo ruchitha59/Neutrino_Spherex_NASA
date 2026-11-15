@@ -1,0 +1,49 @@
+{
+  "source": "Member 1 handoff ZIP and supplied observation summary CSV files",
+  "targets": {
+    "Barnard's Star": {
+      "archive_summary_rows": 123,
+      "local_fits_count": 15,
+      "bands": {
+        "D3": 2,
+        "D6": 2,
+        "D2": 3,
+        "D5": 2,
+        "D1": 3,
+        "D4": 3
+      },
+      "processing_status": "NOT VERIFIED",
+      "limitation": "Astropy WCS validation, reprojection, alignment and real difference products not executed."
+    },
+    "Epsilon Indi B": {
+      "archive_summary_rows": 120,
+      "local_fits_count": 15,
+      "bands": {
+        "D3": 3,
+        "D6": 7,
+        "D2": 3,
+        "D5": 2
+      },
+      "processing_status": "NOT VERIFIED",
+      "limitation": "Astropy WCS validation, reprojection, alignment and real difference products not executed."
+    },
+    "WISE 0855": {
+      "archive_summary_rows": null,
+      "local_fits_count": 0,
+      "processing_status": "NOT VERIFIED",
+      "limitation": "No target-specific manifest record or FITS cutout supplied."
+    },
+    "RW Aurigae": {
+      "archive_summary_rows": null,
+      "local_fits_count": 0,
+      "processing_status": "NOT VERIFIED",
+      "limitation": "No target-specific manifest record or FITS cutout supplied."
+    },
+    "R Draconis": {
+      "archive_summary_rows": null,
+      "local_fits_count": 0,
+      "processing_status": "NOT VERIFIED",
+      "limitation": "No target-specific manifest record or FITS cutout supplied."
+    }
+  }
+}

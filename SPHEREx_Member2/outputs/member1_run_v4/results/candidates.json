@@ -1,0 +1,2770 @@
+{
+  "schema_version": "1.0",
+  "job_id": "member1_run_v4",
+  "candidates": [
+    {
+      "candidate_id": "diff_001_0001",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.98334733655204,
+      "dec_deg": 30.39551503663702,
+      "pixel_x": 0.26160943783727936,
+      "pixel_y": 8.761271177162469,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:22:04.397"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 3,
+      "median_difference": -0.47808274526723826,
+      "max_abs_significance": 21.56815291124868,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: reference:NONFUNC, reference:OVERFLOW"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "reference:NONFUNC",
+        "reference:OVERFLOW"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.8333333333333334,
+          "valid_fraction_5x5": 0.7333333333333333
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 0.8333333333333334,
+      "valid_fraction_5x5": 0.7333333333333333,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            0.26160950839205777,
+            8.761271164081124
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              253.26160950839207,
+              636.7612711640811
+            ],
+            "distance_from_model_center_detector_pixels": 12.366385108240712,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            0.800637603960749,
+            8.757018657381707
+          ],
+          "selected_model": {
+            "record_index": 107,
+            "binx": 2,
+            "biny": 5,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              533.7857055664062
+            ],
+            "candidate_detector_coordinates": [
+              249.80063760396075,
+              521.7570186573816
+            ],
+            "distance_from_model_center_detector_pixels": 14.1454889593517,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.4020185470581055,
+            "wavelength_bandwidth_um": 0.09812799096107483,
+            "nstar": 327,
+            "neff_mean": 4.5286126136779785,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.9593403225402034e-05,
+            "maximum": 0.020785300143135513,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.736779749218819,
+              16.06502840198711
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.241504444185676,
+              8.211894736367508
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.648300888837135,
+              1.6423789472735018
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_001_0002",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.97651073009362,
+      "dec_deg": 30.402198732979514,
+      "pixel_x": 3.508395397471261,
+      "pixel_y": 13.0,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:22:04.397"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": 0.29379614940240817,
+      "max_abs_significance": 11.490112349261885,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: comparison:NONFUNC"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "comparison:NONFUNC"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 0.92
+        }
+      },
+      "valid_fraction_3x3": 1.0,
+      "valid_fraction_5x5": 0.92,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            3.5083954671099074,
+            12.999999986536299
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              256.5083954671099,
+              640.9999999865363
+            ],
+            "distance_from_model_center_detector_pixels": 17.36925873423877,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            4.048511986831953,
+            12.996487591376635
+          ],
+          "selected_model": {
+            "record_index": 107,
+            "binx": 2,
+            "biny": 5,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              533.7857055664062
+            ],
+            "candidate_detector_coordinates": [
+              253.04851198683195,
+              525.9964875913766
+            ],
+            "distance_from_model_center_detector_pixels": 13.227894666517098,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.4020185470581055,
+            "wavelength_bandwidth_um": 0.09812799096107483,
+            "nstar": 327,
+            "neff_mean": 4.5286126136779785,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.9593403225402034e-05,
+            "maximum": 0.020785300143135513,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.736779749218819,
+              16.06502840198711
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.241504444185676,
+              8.211894736367508
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.648300888837135,
+              1.6423789472735018
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_001_0003",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.92937850231296,
+      "dec_deg": 30.409568971821376,
+      "pixel_x": 27.0,
+      "pixel_y": 19.663774841420828,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:22:04.397"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.45267727378322475,
+      "max_abs_significance": 9.985042896922396,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: reference:NONFUNC, reference:OVERFLOW, reference:SUR_ERROR"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "reference:NONFUNC",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.65
+        },
+        "comparison": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.75
+        }
+      },
+      "valid_fraction_3x3": 0.6666666666666666,
+      "valid_fraction_5x5": 0.65,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            27.000000053980923,
+            19.66377484113629
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              280.0000000539809,
+              647.6637748411363
+            ],
+            "distance_from_model_center_detector_pixels": 41.19527666255617,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            27.550305415316775,
+            19.65430284164128
+          ],
+          "selected_model": {
+            "record_index": 107,
+            "binx": 2,
+            "biny": 5,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              533.7857055664062
+            ],
+            "candidate_detector_coordinates": [
+              276.55030541531676,
+              532.6543028416413
+            ],
+            "distance_from_model_center_detector_pixels": 34.211871327283646,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.4020185470581055,
+            "wavelength_bandwidth_um": 0.09812799096107483,
+            "nstar": 327,
+            "neff_mean": 4.5286126136779785,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.9593403225402034e-05,
+            "maximum": 0.020785300143135513,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.736779749218819,
+              16.06502840198711
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.241504444185676,
+              8.211894736367508
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.648300888837135,
+              1.6423789472735018
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_001_0004",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.94690811943433,
+      "dec_deg": 30.41594290680646,
+      "pixel_x": 17.999999999999996,
+      "pixel_y": 22.49735875379332,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:22:04.397"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.16007722517469833,
+      "max_abs_significance": 5.553363166007996,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Connected residual requires human review and source-level photometry."
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 1.0,
+      "valid_fraction_5x5": 1.0,
+      "near_invalid_boundary": false,
+      "detector_quality_warning": false,
+      "near_image_boundary": false,
+      "local_quality_review_required": false,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            18.000000061732504,
+            22.497358745339657
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              271.0000000617325,
+              650.4973587453396
+            ],
+            "distance_from_model_center_detector_pixels": 34.68933227435651,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            18.545885202886208,
+            22.49270393577517
+          ],
+          "selected_model": {
+            "record_index": 107,
+            "binx": 2,
+            "biny": 5,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              533.7857055664062
+            ],
+            "candidate_detector_coordinates": [
+              267.5458852028862,
+              535.4927039357751
+            ],
+            "distance_from_model_center_detector_pixels": 25.246511932639088,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.4020185470581055,
+            "wavelength_bandwidth_um": 0.09812799096107483,
+            "nstar": 327,
+            "neff_mean": 4.5286126136779785,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.9593403225402034e-05,
+            "maximum": 0.020785300143135513,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.736779749218819,
+              16.06502840198711
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.241504444185676,
+              8.211894736367508
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.648300888837135,
+              1.6423789472735018
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_001_0005",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.95461895345778,
+      "dec_deg": 30.420191995283805,
+      "pixel_x": 14.000000000000002,
+      "pixel_y": 24.58622381144295,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:22:04.397"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.25540457712316433,
+      "max_abs_significance": 9.468509236267794,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Connected residual requires human review and source-level photometry."
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 1.0,
+      "valid_fraction_5x5": 1.0,
+      "near_invalid_boundary": false,
+      "detector_quality_warning": false,
+      "near_image_boundary": false,
+      "local_quality_review_required": false,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            14.000000065799393,
+            24.586223798352915
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              267.0000000657994,
+              652.5862237983529
+            ],
+            "distance_from_model_center_detector_pixels": 32.80736727244699,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            14.543837988238387,
+            24.58410750568603
+          ],
+          "selected_model": {
+            "record_index": 107,
+            "binx": 2,
+            "biny": 5,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              533.7857055664062
+            ],
+            "candidate_detector_coordinates": [
+              263.5438379882384,
+              537.584107505686
+            ],
+            "distance_from_model_center_detector_pixels": 21.52449123991111,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.4020185470581055,
+            "wavelength_bandwidth_um": 0.09812799096107483,
+            "nstar": 327,
+            "neff_mean": 4.5286126136779785,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.9593403225402034e-05,
+            "maximum": 0.020785300143135513,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.736779749218819,
+              16.06502840198711
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.241504444185676,
+              8.211894736367508
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.648300888837135,
+              1.6423789472735018
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_002_0001",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.92938211185518,
+      "dec_deg": 30.409506364373588,
+      "pixel_x": 27.000000000000004,
+      "pixel_y": 19.627105817416826,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_3"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:24:13.306"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_3"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.5956123860187497,
+      "max_abs_significance": 11.85202008634383,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: reference:NONFUNC, reference:OVERFLOW, reference:SUR_ERROR"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "reference:NONFUNC",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.65
+        },
+        "comparison": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.75
+        }
+      },
+      "valid_fraction_3x3": 0.6666666666666666,
+      "valid_fraction_5x5": 0.65,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            27.00000005397681,
+            19.627105817149875
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              280.0000000539768,
+              647.6271058171499
+            ],
+            "distance_from_model_center_detector_pixels": 41.18039385496168,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_3",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            27.13293445060283,
+            19.61370934852107
+          ],
+          "selected_model": {
+            "record_index": 86,
+            "binx": 2,
+            "biny": 4,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              436.6428527832031
+            ],
+            "candidate_detector_coordinates": [
+              273.1329344506028,
+              417.61370934852107
+            ],
+            "distance_from_model_center_detector_pixels": 36.18366177873926,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.478902816772461,
+            "wavelength_bandwidth_um": 0.09913600981235504,
+            "nstar": 339,
+            "neff_mean": 4.628036022186279,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.5970888506839346e-05,
+            "maximum": 0.021059110901800588,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.74430105760524,
+              16.045544746286836
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.338541955901603,
+              8.248938325900408
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6677083911803205,
+              1.6497876651800816
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_003_0001",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.98351119612533,
+      "dec_deg": 30.39548449603694,
+      "pixel_x": 0.1800672916835652,
+      "pixel_y": 8.73524295695761,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_4"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:26:22.214"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_4"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 3,
+      "median_difference": -0.46548524680344205,
+      "max_abs_significance": 20.319387772604543,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: reference:NONFUNC, reference:OVERFLOW"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "reference:NONFUNC",
+        "reference:OVERFLOW"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.8333333333333334,
+          "valid_fraction_5x5": 0.7333333333333333
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 0.8333333333333334,
+      "valid_fraction_5x5": 0.7333333333333333,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            0.18006736229608467,
+            8.735242943815743
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              253.18006736229609,
+              636.7352429438157
+            ],
+            "distance_from_model_center_detector_pixels": 12.282216088372472,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_4",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            0.9054159436884124,
+            8.729000623843218
+          ],
+          "selected_model": {
+            "record_index": 65,
+            "binx": 2,
+            "biny": 3,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              339.5
+            ],
+            "candidate_detector_coordinates": [
+              242.9054159436884,
+              291.7290006238432
+            ],
+            "distance_from_model_center_detector_pixels": 47.774145518194885,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.556626319885254,
+            "wavelength_bandwidth_um": 0.09902704507112503,
+            "nstar": 328,
+            "neff_mean": 4.686385631561279,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.396929917594305e-05,
+            "maximum": 0.020336895661233968,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.646534713625975,
+              16.07156233686479
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.354472329604251,
+              8.258717302197343
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6708944659208502,
+              1.6517434604394687
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_003_0002",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.93021188191915,
+      "dec_deg": 30.410217777466336,
+      "pixel_x": 26.562067288472825,
+      "pixel_y": 20.0,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_4"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:26:22.214"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_4"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.42151287566012163,
+      "max_abs_significance": 8.253352681989215,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: reference:NONFUNC, reference:OVERFLOW, reference:SUR_ERROR"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "reference:NONFUNC",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.65
+        },
+        "comparison": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.75
+        }
+      },
+      "valid_fraction_3x3": 0.6666666666666666,
+      "valid_fraction_5x5": 0.65,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            26.56206734287885,
+            19.99999999922548
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              279.56206734287883,
+              647.9999999992255
+            ],
+            "distance_from_model_center_detector_pixels": 40.93457169224087,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_4",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            27.322427293556892,
+            19.979841937425178
+          ],
+          "selected_model": {
+            "record_index": 65,
+            "binx": 2,
+            "biny": 3,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              339.5
+            ],
+            "candidate_detector_coordinates": [
+              269.32242729355687,
+              302.9798419374252
+            ],
+            "distance_from_model_center_detector_pixels": 45.39656677033581,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.556626319885254,
+            "wavelength_bandwidth_um": 0.09902704507112503,
+            "nstar": 328,
+            "neff_mean": 4.686385631561279,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.396929917594305e-05,
+            "maximum": 0.020336895661233968,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.646534713625975,
+              16.07156233686479
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.354472329604251,
+              8.258717302197343
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6708944659208502,
+              1.6517434604394687
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_003_0003",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.95461659895338,
+      "dec_deg": 30.42023307644063,
+      "pixel_x": 13.999999999999998,
+      "pixel_y": 24.610283750967454,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_4"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-02T02:26:22.214"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W36_1A_0476_4"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.22898073712815742,
+      "max_abs_significance": 8.456803656983602,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Connected residual requires human review and source-level photometry."
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 1.0,
+      "valid_fraction_5x5": 1.0,
+      "near_invalid_boundary": false,
+      "detector_quality_warning": false,
+      "near_image_boundary": false,
+      "local_quality_review_required": false,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            14.000000065819982,
+            24.610283737869686
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              267.00000006581996,
+              652.6102837378697
+            ],
+            "distance_from_model_center_detector_pixels": 32.82325530784498,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W36_1A_0476_4",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            14.741221385380666,
+            24.610296101654388
+          ],
+          "selected_model": {
+            "record_index": 65,
+            "binx": 2,
+            "biny": 3,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              339.5
+            ],
+            "candidate_detector_coordinates": [
+              256.74122138538064,
+              307.6102961016544
+            ],
+            "distance_from_model_center_detector_pixels": 34.98363623769658,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.556626319885254,
+            "wavelength_bandwidth_um": 0.09902704507112503,
+            "nstar": 328,
+            "neff_mean": 4.686385631561279,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -4.396929917594305e-05,
+            "maximum": 0.020336895661233968,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.646534713625975,
+              16.07156233686479
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.354472329604251,
+              8.258717302197343
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6708944659208502,
+              1.6517434604394687
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_005_0001",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.96214934998679,
+      "dec_deg": 30.398260389711393,
+      "pixel_x": 10.84479037364171,
+      "pixel_y": 11.426054327257438,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-08T06:36:13.651"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 3,
+      "median_difference": -0.48371521801219997,
+      "max_abs_significance": 18.610436469832468,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: comparison:NONFUNC, comparison:OVERFLOW, comparison:SUR_ERROR, reference:BLOOM, reference:HALO, reference:OVERFLOW, reference:SUR_ERROR, reference:TRANSIENT"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "comparison:NONFUNC",
+        "comparison:OVERFLOW",
+        "comparison:SUR_ERROR",
+        "reference:BLOOM",
+        "reference:HALO",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR",
+        "reference:TRANSIENT"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.5555555555555556,
+          "valid_fraction_5x5": 0.48
+        },
+        "comparison": {
+          "valid_fraction_3x3": 0.8888888888888888,
+          "valid_fraction_5x5": 0.76
+        }
+      },
+      "valid_fraction_3x3": 0.5555555555555556,
+      "valid_fraction_5x5": 0.44,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            10.844790436572,
+            11.42605432083161
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              263.844790436572,
+              639.4260543208316
+            ],
+            "distance_from_model_center_detector_pixels": 23.10683297806564,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W37_1A_0234_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            11.38544088707912,
+            11.588670026506499
+          ],
+          "selected_model": {
+            "record_index": 402,
+            "binx": 3,
+            "biny": 19,
+            "model_center_detector_coordinates": [
+              339.5,
+              1893.7857666015625
+            ],
+            "candidate_detector_coordinates": [
+              301.38544088707914,
+              1934.5886700265064
+            ],
+            "distance_from_model_center_detector_pixels": 55.83544165024252,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 2.4700963497161865,
+            "wavelength_bandwidth_um": 0.07072383910417557,
+            "nstar": 341,
+            "neff_mean": 4.250231742858887,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -1.7060132719925618e-05,
+            "maximum": 0.022110302267659147,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.89702513299527,
+              16.06423679925575
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              7.95646132184166,
+              7.803114251389002
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.591292264368332,
+              1.5606228502778003
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_005_0002",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.95596359582292,
+      "dec_deg": 30.396996109351516,
+      "pixel_x": 13.99253814264616,
+      "pixel_y": 11.0,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-08T06:36:13.651"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 4,
+      "median_difference": 2.9602967054646685,
+      "max_abs_significance": 63.82371761823467,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: comparison:OVERFLOW, reference:BLOOM, reference:OVERFLOW, reference:SUR_ERROR, reference:TRANSIENT"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "comparison:OVERFLOW",
+        "reference:BLOOM",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR",
+        "reference:TRANSIENT"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.7777777777777778,
+          "valid_fraction_5x5": 0.64
+        },
+        "comparison": {
+          "valid_fraction_3x3": 0.6666666666666666,
+          "valid_fraction_5x5": 0.64
+        }
+      },
+      "valid_fraction_3x3": 0.6666666666666666,
+      "valid_fraction_5x5": 0.56,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            13.99253820296014,
+            10.999999996194575
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              266.99253820296013,
+              638.9999999961946
+            ],
+            "distance_from_model_center_detector_pixels": 25.923930385930927,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W37_1A_0234_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            14.515177299775738,
+            11.1784679950902
+          ],
+          "selected_model": {
+            "record_index": 402,
+            "binx": 3,
+            "biny": 19,
+            "model_center_detector_coordinates": [
+              339.5,
+              1893.7857666015625
+            ],
+            "candidate_detector_coordinates": [
+              304.51517729977576,
+              1934.1784679950902
+            ],
+            "distance_from_model_center_detector_pixels": 53.43695486489492,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 2.4700963497161865,
+            "wavelength_bandwidth_um": 0.07072383910417557,
+            "nstar": 341,
+            "neff_mean": 4.250231742858887,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -1.7060132719925618e-05,
+            "maximum": 0.022110302267659147,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.89702513299527,
+              16.06423679925575
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              7.95646132184166,
+              7.803114251389002
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.591292264368332,
+              1.5606228502778003
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_005_0003",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.96459108818185,
+      "dec_deg": 30.4028872582239,
+      "pixel_x": 9.483483627714126,
+      "pixel_y": 13.999999999999998,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-08T06:36:13.651"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": -0.1739595246232604,
+      "max_abs_significance": 5.704625931507237,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry."
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 0.88
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 1.0,
+      "valid_fraction_5x5": 0.88,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": false,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            9.483483692782695,
+            13.999999990741767
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              262.48348369278267,
+              641.9999999907418
+            ],
+            "distance_from_model_center_detector_pixels": 22.970536872510362,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W37_1A_0234_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            10.03505938460241,
+            14.142675760922984
+          ],
+          "selected_model": {
+            "record_index": 402,
+            "binx": 3,
+            "biny": 19,
+            "model_center_detector_coordinates": [
+              339.5,
+              1893.7857666015625
+            ],
+            "candidate_detector_coordinates": [
+              300.0350593846024,
+              1937.1426757609229
+            ],
+            "distance_from_model_center_detector_pixels": 58.62851788703078,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 2.4700963497161865,
+            "wavelength_bandwidth_um": 0.07072383910417557,
+            "nstar": 341,
+            "neff_mean": 4.250231742858887,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -1.7060132719925618e-05,
+            "maximum": 0.022110302267659147,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.89702513299527,
+              16.06423679925575
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              7.95646132184166,
+              7.803114251389002
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.591292264368332,
+              1.5606228502778003
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_005_0004",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.9516751652771,
+      "dec_deg": 30.402177088949376,
+      "pixel_x": 16.0,
+      "pixel_y": 14.235046517819086,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-08T06:36:13.651"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 2,
+      "median_difference": 4.66614034938749,
+      "max_abs_significance": 80.20343640470188,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: comparison:OVERFLOW, reference:BLOOM, reference:NONFUNC, reference:OVERFLOW, reference:SUR_ERROR, reference:TRANSIENT"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "comparison:OVERFLOW",
+        "reference:BLOOM",
+        "reference:NONFUNC",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR",
+        "reference:TRANSIENT"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.4444444444444444,
+          "valid_fraction_5x5": 0.52
+        },
+        "comparison": {
+          "valid_fraction_3x3": 0.7777777777777778,
+          "valid_fraction_5x5": 0.72
+        }
+      },
+      "valid_fraction_3x3": 0.4444444444444444,
+      "valid_fraction_5x5": 0.48,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            16.000000060034804,
+            14.235046513351644
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              269.0000000600348,
+              642.2350465133517
+            ],
+            "distance_from_model_center_detector_pixels": 28.94266041902393,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W37_1A_0234_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            16.515746228307698,
+            14.404428940471238
+          ],
+          "selected_model": {
+            "record_index": 402,
+            "binx": 3,
+            "biny": 19,
+            "model_center_detector_coordinates": [
+              339.5,
+              1893.7857666015625
+            ],
+            "candidate_detector_coordinates": [
+              306.5157462283077,
+              1937.4044289404712
+            ],
+            "distance_from_model_center_detector_pixels": 54.68590952988834,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 2.4700963497161865,
+            "wavelength_bandwidth_um": 0.07072383910417557,
+            "nstar": 341,
+            "neff_mean": 4.250231742858887,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -1.7060132719925618e-05,
+            "maximum": 0.022110302267659147,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.89702513299527,
+              16.06423679925575
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              7.95646132184166,
+              7.803114251389002
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.591292264368332,
+              1.5606228502778003
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "diff_005_0005",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.93057753743318,
+      "dec_deg": 30.409075361820502,
+      "pixel_x": 26.411288757225545,
+      "pixel_y": 19.31581841458732,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-08T06:36:13.651"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "measurement_uncertainty": null,
+      "pixel_count": 5,
+      "median_difference": 0.3419778128472799,
+      "max_abs_significance": 21.819181047391748,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "review_required": true,
+      "artifact_warnings": [
+        "Candidate lies near invalid pixels; local image support is incomplete.",
+        "Connected residual requires human review and source-level photometry.",
+        "Nearby detector-quality flags require inspection: reference:NONFUNC, reference:OVERFLOW, reference:SUR_ERROR"
+      ],
+      "classification_rationale": "Thresholded residual component only; motion versus variability is not established.",
+      "scientific_caveat": "This is an unverified candidate, not a confirmed discovery.",
+      "nearby_quality_flags": [
+        "reference:NONFUNC",
+        "reference:OVERFLOW",
+        "reference:SUR_ERROR"
+      ],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 0.8888888888888888,
+          "valid_fraction_5x5": 0.64
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 0.8
+        }
+      },
+      "valid_fraction_3x3": 0.8888888888888888,
+      "valid_fraction_5x5": 0.64,
+      "near_invalid_boundary": true,
+      "detector_quality_warning": true,
+      "near_image_boundary": false,
+      "local_quality_review_required": true,
+      "epsf_analysis": {
+        "reference": {
+          "observation_id": "2026W36_1A_0476_1",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            26.411288811505703,
+            19.31581841412156
+          ],
+          "selected_model": {
+            "record_index": 128,
+            "binx": 2,
+            "biny": 6,
+            "model_center_detector_coordinates": [
+              242.35714721679688,
+              630.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              279.4112888115057,
+              647.3158184141215
+            ],
+            "distance_from_model_center_detector_pixels": 40.51605486155627,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 3.325761556625366,
+            "wavelength_bandwidth_um": 0.09602920711040497,
+            "nstar": 304,
+            "neff_mean": 4.60646390914917,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.3396197950950956e-05,
+            "maximum": 0.020956120468648618,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.691535067870095,
+              16.020696934666823
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.280734841295992,
+              8.17391829654557
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6561469682591983,
+              1.634783659309114
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "comparison": {
+          "observation_id": "2026W37_1A_0234_2",
+          "status": "selected",
+          "warnings": [],
+          "psf_format": "EPSF",
+          "original_image_pixel": [
+            26.875947178215164,
+            19.501987161150584
+          ],
+          "selected_model": {
+            "record_index": 423,
+            "binx": 3,
+            "biny": 20,
+            "model_center_detector_coordinates": [
+              339.5,
+              1990.9285888671875
+            ],
+            "candidate_detector_coordinates": [
+              316.87594717821514,
+              1942.5019871611505
+            ],
+            "distance_from_model_center_detector_pixels": 53.45075788871525,
+            "within_grid_coverage": true,
+            "wavelength_center_um": 2.4298832416534424,
+            "wavelength_bandwidth_um": 0.043660689145326614,
+            "nstar": 345,
+            "neff_mean": 4.436444282531738,
+            "oversampling": [
+              5,
+              5
+            ],
+            "epsf_shape": [
+              33,
+              33
+            ],
+            "normalization": "unit_sum"
+          },
+          "diagnostics": {
+            "shape": [
+              33,
+              33
+            ],
+            "sum": 1.0,
+            "minimum": -3.117147244548377e-05,
+            "maximum": 0.021011592588959065,
+            "finite_pixels": 1089,
+            "positive_weight_centroid_samples": [
+              15.811543887071876,
+              16.20880094940301
+            ],
+            "gaussian_equivalent_fwhm_samples": [
+              8.076367334798796,
+              8.083874873807769
+            ],
+            "gaussian_equivalent_fwhm_detector_pixels": [
+              1.6152734669597593,
+              1.6167749747615539
+            ],
+            "oversampling": [
+              5,
+              5
+            ],
+            "measurement_note": "Positive-weight second-moment estimate; not a PSF fit."
+          }
+        },
+        "psf_matching_performed": false,
+        "interpretation": "Available spatial EPSF/PSF models were selected for diagnostics. The observations have not been PSF-matched."
+      }
+    },
+    {
+      "candidate_id": "source_005_0001",
+      "classification": "ambiguous/uncertain",
+      "ra_deg": 76.94931338002955,
+      "dec_deg": 30.378612467572836,
+      "pixel_x": 17.86878362636595,
+      "pixel_y": 0.6196258825000366,
+      "observation_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "observation_times": [
+        "2026-09-02T02:19:55.402",
+        "2026-09-08T06:36:13.651"
+      ],
+      "epoch_pair": [
+        "2026W36_1A_0476_1",
+        "2026W37_1A_0234_2"
+      ],
+      "reference_flux": null,
+      "comparison_flux": null,
+      "flux_change": null,
+      "flux_change_significance": null,
+      "reference_aperture_coverage_fraction": 0.7752700836648984,
+      "comparison_aperture_coverage_fraction": 0.7919787203362729,
+      "reference_aperture_image_coverage_fraction": 0.7752700836648984,
+      "comparison_aperture_image_coverage_fraction": 0.7919787203362729,
+      "reference_aperture_truncated_by_image_boundary": true,
+      "comparison_aperture_truncated_by_image_boundary": true,
+      "aperture_incomplete": true,
+      "near_image_boundary": true,
+      "review_required": true,
+      "position_change_px": 0.11682781091995949,
+      "position_dx_px": 0.09038966559971584,
+      "position_dy_px": 0.07401652354117527,
+      "quality_flags": [
+        "comparison:SOURCE",
+        "reference:SOURCE"
+      ],
+      "artifact_warnings": [
+        "At least one circular aperture extends beyond the image boundary.",
+        "At least one circular aperture is incomplete; flux variability significance is withheld.",
+        "Candidate aperture extends beyond the image boundary.",
+        "Centroid uncertainties are not yet propagated into the motion threshold.",
+        "PSF matching is not currently performed."
+      ],
+      "classification_rationale": "Aperture photometry is incomplete in at least one observation; brightness variability cannot be assessed reliably.",
+      "scientific_caveat": "Possible candidate only; requires PSF-aware photometry, astrometric uncertainty review and human validation.",
+      "nearby_quality_flags": [],
+      "local_support": {
+        "reference": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        },
+        "comparison": {
+          "valid_fraction_3x3": 1.0,
+          "valid_fraction_5x5": 1.0
+        }
+      },
+      "valid_fraction_3x3": 1.0,
+      "valid_fraction_5x5": 1.0,
+      "near_invalid_boundary": false,
+      "detector_quality_warning": false,
+      "local_quality_review_required": true
+    }
+  ]
+}

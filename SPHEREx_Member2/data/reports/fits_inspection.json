@@ -1,0 +1,4400 @@
+{
+  "source_archive": "Planet-x-backend-handoff.zip",
+  "inspection_method": "FITS block/header and image-array binary inspection using Python standard library and NumPy; Astropy-based semantic validation not run",
+  "file_count": 30,
+  "hdu_layout_distribution": {
+    "['PRIMARY', 'IMAGE', 'FLAGS', 'VARIANCE', 'ZODI', 'EPSF', 'WCS-WAVE']": 30
+  },
+  "science_shape_distribution": {
+    "[29, 29]": 29,
+    "[26, 29]": 1
+  },
+  "science_extension": "IMAGE (HDU 1, after empty PRIMARY HDU)",
+  "auxiliary_extensions": [
+    "FLAGS",
+    "VARIANCE",
+    "ZODI",
+    "EPSF",
+    "WCS-WAVE"
+  ],
+  "all_files_have_wcs_keywords": true,
+  "all_files_finast_zero": true,
+  "science_nonfinite_pixel_total": 6,
+  "variance_nonfinite_pixel_total": 6,
+  "variance_negative_pixel_total": 0,
+  "flag_pixel_incidences_total": {
+    "TRANSIENT": 234,
+    "OVERFLOW": 7,
+    "SUR_ERROR": 210,
+    "NONFUNC": 77,
+    "DICHROIC": 0,
+    "MISSING_DATA": 0,
+    "HOT": 0,
+    "COLD": 16,
+    "FULLSAMPLE": 0,
+    "PHANMISS": 0,
+    "NONLINEAR": 0,
+    "PERSIST": 37,
+    "OUTLIER": 13,
+    "CROSSTALK": 2,
+    "SOURCE": 24847,
+    "GHOST": 0,
+    "GHOST_FPA": 0,
+    "GHOST_EXT": 0,
+    "STREAK": 0,
+    "BLOOM": 0,
+    "SNOWBALL": 0,
+    "HALO": 603
+  },
+  "files": [
+    {
+      "filename": "cutouts\\2026W33_2A_0594_4_SPHEREx-D3_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 4049280,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            451,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1100
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-16T15:08:22.122",
+      "mjd_obs": 61268.630811597,
+      "obsid": "2026W33_2A_0594_4",
+      "detector": 3,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -0.7735099792480469,
+      "science_median": 0.2537245750427246,
+      "science_max": 29.92617416381836,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 2,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 12
+      }
+    },
+    {
+      "filename": "cutouts\\2026W34_1A_0007_1_SPHEREx-D6_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-17T00:48:07.353",
+      "mjd_obs": 61269.033418438,
+      "obsid": "2026W34_1A_0007_1",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 1,
+      "science_min": -12.574084281921387,
+      "science_median": 0.2594008445739746,
+      "science_max": 464.8142395019531,
+      "variance_nonfinite_pixels": 1,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 4,
+        "OVERFLOW": 1,
+        "SUR_ERROR": 4,
+        "NONFUNC": 5,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 2,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 0
+      }
+    },
+    {
+      "filename": "cutouts\\2026W34_1A_0363_1_SPHEREx-D2_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-18T20:48:38.781",
+      "mjd_obs": 61270.867115521,
+      "obsid": "2026W34_1A_0363_1",
+      "detector": 2,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.1998920738697052,
+      "science_median": 0.28081485629081726,
+      "science_max": 43.19961166381836,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 3,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 3,
+        "NONFUNC": 0,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "HALO": 14
+      }
+    },
+    {
+      "filename": "cutouts\\2026W34_1A_0456_1_SPHEREx-D5_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-19T08:12:34.084",
+      "mjd_obs": 61271.342061157,
+      "obsid": "2026W34_1A_0456_1",
+      "detector": 5,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -12.640817642211914,
+      "science_median": 0.25126680731773376,
+      "science_max": 6.635344505310059,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 2,
+        "NONFUNC": 1,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 5
+      }
+    },
+    {
+      "filename": "cutouts\\2026W34_2A_0081_1_SPHEREx-D3_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 4049280,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            451,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1100
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-20T21:44:53.540",
+      "mjd_obs": 61272.906175231,
+      "obsid": "2026W34_2A_0081_1",
+      "detector": 3,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.04924359917640686,
+      "science_median": 0.1882917284965515,
+      "science_max": 242.26744079589844,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 2,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 0
+      }
+    },
+    {
+      "filename": "cutouts\\2026W34_2A_0178_3_SPHEREx-D2_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-21T09:09:36.422",
+      "mjd_obs": 61273.381671551,
+      "obsid": "2026W34_2A_0178_3",
+      "detector": 2,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.1941373348236084,
+      "science_median": 0.2820781171321869,
+      "science_max": 55.55067443847656,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 0,
+        "NONFUNC": 1,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 9
+      }
+    },
+    {
+      "filename": "cutouts\\2026W34_2A_0757_1_SPHEREx-D1_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-23T23:01:13.690",
+      "mjd_obs": 61275.959186227,
+      "obsid": "2026W34_2A_0757_1",
+      "detector": 1,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -3.312136650085449,
+      "science_median": 0.2491500824689865,
+      "science_max": 40.317386627197266,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 4,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 3,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 2,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 10
+      }
+    },
+    {
+      "filename": "cutouts\\2026W35_1A_0053_1_SPHEREx-D4_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            2212
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-24T05:35:46.306",
+      "mjd_obs": 61276.233174838,
+      "obsid": "2026W35_1A_0053_1",
+      "detector": 4,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 1,
+      "science_min": -2.4993155002593994,
+      "science_median": 0.14357352256774902,
+      "science_max": 103.66649627685547,
+      "variance_nonfinite_pixels": 1,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 3,
+        "OVERFLOW": 1,
+        "SUR_ERROR": 4,
+        "NONFUNC": 3,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 4
+      }
+    },
+    {
+      "filename": "cutouts\\2026W35_1A_0375_1_SPHEREx-D1_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-25T18:57:54.878",
+      "mjd_obs": 61277.790218495,
+      "obsid": "2026W35_1A_0375_1",
+      "detector": 1,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -0.2083204686641693,
+      "science_median": 0.2970164716243744,
+      "science_max": 26.44045639038086,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 4,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 4,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 2,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 13
+      }
+    },
+    {
+      "filename": "cutouts\\2026W35_1A_0575_1_SPHEREx-D4_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            26,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            26,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            26,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            26,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            2212
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        26,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-26T17:46:39.212",
+      "mjd_obs": 61278.74073162,
+      "obsid": "2026W35_1A_0575_1",
+      "detector": 4,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -0.007910454645752907,
+      "science_median": 0.16239072382450104,
+      "science_max": 73.48172760009766,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 1,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 1,
+        "NONFUNC": 4,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 754,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 0
+      }
+    },
+    {
+      "filename": "cutouts\\2026W35_2A_0126_1_SPHEREx-D5_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-28T03:59:24.992",
+      "mjd_obs": 61280.166261481,
+      "obsid": "2026W35_2A_0126_1",
+      "detector": 5,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -637.9841918945312,
+      "science_median": 0.27171769738197327,
+      "science_max": 25.94155502319336,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 3,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 2,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 10
+      }
+    },
+    {
+      "filename": "cutouts\\2026W35_2A_0412_1_SPHEREx-D1_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-08-29T15:49:06.475",
+      "mjd_obs": 61281.65910272,
+      "obsid": "2026W35_2A_0412_1",
+      "detector": 1,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.06208647042512894,
+      "science_median": 0.27917513251304626,
+      "science_max": 51.50160598754883,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 5,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 4,
+        "NONFUNC": 0,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 26
+      }
+    },
+    {
+      "filename": "cutouts\\2026W36_1A_0510_1_SPHEREx-D4_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            2212
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-02T06:10:07.914",
+      "mjd_obs": 61285.257036042,
+      "obsid": "2026W36_1A_0510_1",
+      "detector": 4,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 1,
+      "science_min": -5.194881916046143,
+      "science_median": 0.17176783084869385,
+      "science_max": 17.299739837646484,
+      "variance_nonfinite_pixels": 1,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 7,
+        "OVERFLOW": 1,
+        "SUR_ERROR": 8,
+        "NONFUNC": 8,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 5
+      }
+    },
+    {
+      "filename": "cutouts\\2026W38_2A_0562_1_SPHEREx-D6_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-20T04:27:04.270",
+      "mjd_obs": 61303.185466088,
+      "obsid": "2026W38_2A_0562_1",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -3.0085909366607666,
+      "science_median": 0.7545492649078369,
+      "science_max": 3.5982654094696045,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 7,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 7,
+        "NONFUNC": 0,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 24
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0276_1_SPHEREx-D3_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 4049280,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            451,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1100
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T05:26:44.686",
+      "mjd_obs": 61305.226906088,
+      "obsid": "2026W39_1A_0276_1",
+      "detector": 3,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -0.3316117227077484,
+      "science_median": 0.25914686918258667,
+      "science_max": 2.311940908432007,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 12,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 12,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 7,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 33
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0276_1_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T05:26:44.687",
+      "mjd_obs": 61305.2269061,
+      "obsid": "2026W39_1A_0276_1",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 1,
+      "science_min": -0.10222654789686203,
+      "science_median": 0.2785510718822479,
+      "science_max": 0.6021577715873718,
+      "variance_nonfinite_pixels": 1,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 3,
+        "OVERFLOW": 1,
+        "SUR_ERROR": 4,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 1,
+        "CROSSTALK": 0,
+        "SOURCE": 799,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 5
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0276_2_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T05:28:53.617",
+      "mjd_obs": 61305.228398345,
+      "obsid": "2026W39_1A_0276_2",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.14923863112926483,
+      "science_median": 0.2875259220600128,
+      "science_max": 2.004487991333008,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 1,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 1,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 794,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 0
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0276_3_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T05:31:02.547",
+      "mjd_obs": 61305.22989059,
+      "obsid": "2026W39_1A_0276_3",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 1,
+      "science_min": -0.5712459683418274,
+      "science_median": 0.2954503893852234,
+      "science_max": 17.165355682373047,
+      "variance_nonfinite_pixels": 1,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 8,
+        "OVERFLOW": 1,
+        "SUR_ERROR": 8,
+        "NONFUNC": 4,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 1,
+        "CROSSTALK": 0,
+        "SOURCE": 812,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 11
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0276_4_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T05:33:11.479",
+      "mjd_obs": 61305.231382859,
+      "obsid": "2026W39_1A_0276_4",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -7.823005676269531,
+      "science_median": 0.30631208419799805,
+      "science_max": 816.8817749023438,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 2,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 5,
+        "CROSSTALK": 0,
+        "SOURCE": 809,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 10
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0371_1_SPHEREx-D2_RA269.45208_DEC4.69336_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T15:04:20.981",
+      "mjd_obs": 61305.628020613,
+      "obsid": "2026W39_1A_0371_1",
+      "detector": 2,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.22307302057743073,
+      "science_median": 0.32725396752357483,
+      "science_max": 42.26289749145508,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 1,
+        "NONFUNC": 0,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 19,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 10
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0434_3_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-22T21:48:19.976",
+      "mjd_obs": 61305.908564537,
+      "obsid": "2026W39_1A_0434_3",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -0.4179733991622925,
+      "science_median": 0.35905662178993225,
+      "science_max": 382.9704895019531,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 12,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 12,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 2,
+        "CROSSTALK": 0,
+        "SOURCE": 793,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 29
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_1A_0578_1_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-23T17:16:30.763",
+      "mjd_obs": 61306.719800498,
+      "obsid": "2026W39_1A_0578_1",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 1,
+      "science_min": -2.4835045337677,
+      "science_median": 0.38746827840805054,
+      "science_max": 1007.5126342773438,
+      "variance_nonfinite_pixels": 1,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 27,
+        "OVERFLOW": 2,
+        "SUR_ERROR": 27,
+        "NONFUNC": 7,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 806,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 64
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_2A_0155_1_SPHEREx-D3_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 4049280,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            451,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1100
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-25T05:08:50.334",
+      "mjd_obs": 61308.214471458,
+      "obsid": "2026W39_2A_0155_1",
+      "detector": 3,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.013881102204322815,
+      "science_median": 0.1749512106180191,
+      "science_max": 1.5092875957489014,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 2,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 2,
+        "NONFUNC": 4,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 0
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_2A_0398_1_SPHEREx-D6_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            720
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-26T08:48:52.465",
+      "mjd_obs": 61309.3672739,
+      "obsid": "2026W39_2A_0398_1",
+      "detector": 6,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -10.150141716003418,
+      "science_median": 0.3707643449306488,
+      "science_max": 763.1451416015625,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 9,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 9,
+        "NONFUNC": 2,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 4,
+        "CROSSTALK": 0,
+        "SOURCE": 778,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 24
+      }
+    },
+    {
+      "filename": "cutouts\\2026W39_2A_0581_1_SPHEREx-D3_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 4049280,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            451,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1100
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-27T05:58:12.213",
+      "mjd_obs": 61310.248752465,
+      "obsid": "2026W39_2A_0581_1",
+      "detector": 3,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.17127792537212372,
+      "science_median": 0.2543007731437683,
+      "science_max": 2.407402515411377,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 1,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 1,
+        "NONFUNC": 3,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 0
+      }
+    },
+    {
+      "filename": "cutouts\\2026W40_1A_0031_1_SPHEREx-D2_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-28T03:10:48.423",
+      "mjd_obs": 61311.132504896,
+      "obsid": "2026W40_1A_0031_1",
+      "detector": 2,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.22016532719135284,
+      "science_median": 0.339440256357193,
+      "science_max": 3.2423973083496094,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 21,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 12,
+        "NONFUNC": 1,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 59
+      }
+    },
+    {
+      "filename": "cutouts\\2026W40_1A_0407_1_SPHEREx-D5_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-29T19:54:59.562",
+      "mjd_obs": 61312.829856042,
+      "obsid": "2026W40_1A_0407_1",
+      "detector": 5,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -7.2472710609436035,
+      "science_median": 0.1958482265472412,
+      "science_max": 1.1675933599472046,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 7,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 5,
+        "NONFUNC": 3,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 2,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 1,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 25
+      }
+    },
+    {
+      "filename": "cutouts\\2026W40_1A_0453_1_SPHEREx-D2_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-09-30T00:48:01.736",
+      "mjd_obs": 61313.033353426,
+      "obsid": "2026W40_1A_0453_1",
+      "detector": 2,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -0.8606910109519958,
+      "science_median": 0.29058709740638733,
+      "science_max": 3.3737411499023438,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 6,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 3,
+        "NONFUNC": 5,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 1,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 20
+      }
+    },
+    {
+      "filename": "cutouts\\2026W40_1A_0692_1_SPHEREx-D5_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3962880,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-10-01T01:15:26.138",
+      "mjd_obs": 61314.052385856,
+      "obsid": "2026W40_1A_0692_1",
+      "detector": 5,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": -579.1176147460938,
+      "science_median": 0.18931002914905548,
+      "science_max": 417.7192077636719,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 52,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 46,
+        "NONFUNC": 5,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 120
+      }
+    },
+    {
+      "filename": "cutouts\\2026W40_2A_0143_1_SPHEREx-D2_RA331.04415_DEC-56.78284_SIZE0.05000_cutout.fits",
+      "size_bytes": 3965760,
+      "hdu_count": 7,
+      "hdus": [
+        {
+          "index": 0,
+          "extname": "PRIMARY",
+          "xtension": null,
+          "shape": null,
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": false,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 1,
+          "extname": "IMAGE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": true
+        },
+        {
+          "index": 2,
+          "extname": "FLAGS",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": 32,
+          "bunit": "",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 3,
+          "extname": "VARIANCE",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy2 / sr2",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 4,
+          "extname": "ZODI",
+          "xtension": "IMAGE",
+          "shape": [
+            29,
+            29
+          ],
+          "bitpix": -32,
+          "bunit": "MJy / sr",
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 5,
+          "extname": "EPSF",
+          "xtension": "BINTABLE",
+          "shape": [
+            441,
+            8752
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        },
+        {
+          "index": 6,
+          "extname": "WCS-WAVE",
+          "xtension": "BINTABLE",
+          "shape": [
+            1,
+            1056
+          ],
+          "bitpix": 8,
+          "bunit": null,
+          "has_data": true,
+          "wcs_keywords_present": null
+        }
+      ],
+      "science_hdu_index": 1,
+      "science_selection_evidence": "EXTNAME=IMAGE",
+      "science_shape": [
+        29,
+        29
+      ],
+      "science_bunit": "MJy / sr",
+      "variance_bunit": "MJy2 / sr2",
+      "date_obs": "2026-10-02T03:17:15.828",
+      "mjd_obs": 61315.13698875,
+      "obsid": "2026W40_2A_0143_1",
+      "detector": 2,
+      "finast": 0,
+      "radesys": "ICRS",
+      "ctype": [
+        "RA---TAN-SIP",
+        "DEC--TAN-SIP"
+      ],
+      "wcs_keywords_present": true,
+      "astropy_wcs_validation": "NOT RUN (Astropy is not installed in the execution environment)",
+      "science_nonfinite_pixels": 0,
+      "science_min": 0.1490004062652588,
+      "science_median": 0.30757734179496765,
+      "science_max": 2.4924981594085693,
+      "variance_nonfinite_pixels": 0,
+      "variance_negative_pixels": 0,
+      "flag_pixel_incidences": {
+        "TRANSIENT": 20,
+        "OVERFLOW": 0,
+        "SUR_ERROR": 19,
+        "NONFUNC": 1,
+        "DICHROIC": 0,
+        "MISSING_DATA": 0,
+        "HOT": 0,
+        "COLD": 0,
+        "FULLSAMPLE": 0,
+        "PHANMISS": 0,
+        "NONLINEAR": 0,
+        "PERSIST": 0,
+        "OUTLIER": 0,
+        "CROSSTALK": 0,
+        "SOURCE": 841,
+        "GHOST": 0,
+        "GHOST_FPA": 0,
+        "GHOST_EXT": 0,
+        "STREAK": 0,
+        "BLOOM": 0,
+        "SNOWBALL": 0,
+        "HALO": 61
+      }
+    }
+  ]
+}
