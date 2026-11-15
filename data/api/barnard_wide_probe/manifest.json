@@ -1,0 +1,137 @@
+{
+  "project": "real archive wide cutout check",
+  "observations": [
+    {
+      "observation_id": "2026W39_1A_0371_1",
+      "product_id": "2026W39_1A_0371_1",
+      "obs_time": "2026-09-22T15:04:21.014Z",
+      "collection": "spherex_qr3",
+      "release": "QR3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W39_1A/l2b-v27-2026-268/2/level2_2026W39_1A_0371_1D2_spx_l2b-v27-2026-268.fits",
+      "target_name": "SPS_085288_S34",
+      "quality": null,
+      "metadata": {
+        "obs_id": "2026W39_1A_0371_1",
+        "target_name": "SPS_085288_S34",
+        "energy_bandpassname": "SPHEREx-D2",
+        "em_min": "1.1033e-06",
+        "em_max": "1.6499e-06",
+        "t_min": "61305.628021",
+        "t_max": "61305.629353",
+        "s_ra": "267.85198719347164",
+        "s_dec": "3.8966102830735507"
+      },
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2026-09-22T15:04:21.014Z",
+      "requested_center": {
+        "ra_deg": 269.44607373863323,
+        "dec_deg": 4.770705286799144
+      },
+      "cutout_size_deg": 0.5,
+      "local_file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\barnard_wide_probe\\0.fits",
+      "download_status": "downloaded"
+    },
+    {
+      "observation_id": "2026W34_2A_0178_1",
+      "product_id": "2026W34_2A_0178_1",
+      "obs_time": "2026-08-21T09:05:18.557Z",
+      "collection": "spherex_qr3",
+      "release": "QR3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_2A/l2b-v27-2026-243/2/level2_2026W34_2A_0178_1D2_spx_l2b-v27-2026-243.fits",
+      "target_name": "SPS_086986_S34",
+      "quality": null,
+      "metadata": {
+        "obs_id": "2026W34_2A_0178_1",
+        "target_name": "SPS_086986_S34",
+        "energy_bandpassname": "SPHEREx-D2",
+        "em_min": "1.1033e-06",
+        "em_max": "1.6499e-06",
+        "t_min": "61273.378687",
+        "t_max": "61273.380019",
+        "s_ra": "269.4366973557525",
+        "s_dec": "6.696375320231853"
+      },
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2026-08-21T09:05:18.557Z",
+      "requested_center": {
+        "ra_deg": 269.44607373863323,
+        "dec_deg": 4.770705286799144
+      },
+      "cutout_size_deg": 0.5,
+      "local_file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\barnard_wide_probe\\1.fits",
+      "download_status": "downloaded"
+    },
+    {
+      "observation_id": "2026W34_2A_0178_2",
+      "product_id": "2026W34_2A_0178_2",
+      "obs_time": "2026-08-21T09:07:27.466Z",
+      "collection": "spherex_qr3",
+      "release": "QR3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_2A/l2b-v27-2026-243/2/level2_2026W34_2A_0178_2D2_spx_l2b-v27-2026-243.fits",
+      "target_name": "SPS_086985_S34",
+      "quality": null,
+      "metadata": {
+        "obs_id": "2026W34_2A_0178_2",
+        "target_name": "SPS_086985_S34",
+        "energy_bandpassname": "SPHEREx-D2",
+        "em_min": "1.1033e-06",
+        "em_max": "1.6499e-06",
+        "t_min": "61273.380179",
+        "t_max": "61273.381512",
+        "s_ra": "269.4356711184898",
+        "s_dec": "6.4994562343744215"
+      },
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2026-08-21T09:07:27.466Z",
+      "requested_center": {
+        "ra_deg": 269.44607373863323,
+        "dec_deg": 4.770705286799144
+      },
+      "cutout_size_deg": 0.5,
+      "local_file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\barnard_wide_probe\\2.fits",
+      "download_status": "downloaded"
+    },
+    {
+      "observation_id": "2026W34_2A_0178_3",
+      "product_id": "2026W34_2A_0178_3",
+      "obs_time": "2026-08-21T09:09:36.461Z",
+      "collection": "spherex_qr3",
+      "release": "QR3",
+      "band": "SPHEREx-D2",
+      "wavelength_min_um": 1.1033000000000002,
+      "wavelength_max_um": 1.6499000000000001,
+      "access_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W34_2A/l2b-v27-2026-243/2/level2_2026W34_2A_0178_3D2_spx_l2b-v27-2026-243.fits",
+      "target_name": "SPS_086984_S34",
+      "quality": null,
+      "metadata": {
+        "obs_id": "2026W34_2A_0178_3",
+        "target_name": "SPS_086984_S34",
+        "energy_bandpassname": "SPHEREx-D2",
+        "em_min": "1.1033e-06",
+        "em_max": "1.6499e-06",
+        "t_min": "61273.381672",
+        "t_max": "61273.383004",
+        "s_ra": "269.4345796189145",
+        "s_dec": "6.302668030519807"
+      },
+      "infrared_band": "SPHEREx-D2",
+      "observation_start_utc": "2026-08-21T09:09:36.461Z",
+      "requested_center": {
+        "ra_deg": 269.44607373863323,
+        "dec_deg": 4.770705286799144
+      },
+      "cutout_size_deg": 0.5,
+      "local_file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\nasa maybe 2.0\\data\\api\\barnard_wide_probe\\3.fits",
+      "download_status": "downloaded"
+    }
+  ]
+}
